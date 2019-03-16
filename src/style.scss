@@ -1,0 +1,62 @@
+@import 'reset/reset.scss';
+
+.content{
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-pack:justify;
+    -ms-flex-pack:justify;
+    justify-content:space-between;
+    text-align:center;
+    -webkit-box-orient:horizontal;
+    -webkit-box-direction:normal;
+    -ms-flex-direction:row;
+    flex-direction:row;
+    max-width:100%
+ }
+
+ .content__left, .content__right{
+    margin-top: 7.25rem;
+    height: 155.5rem;
+ }
+ .content__left{
+    width: 42rem;
+    height: 155.5rem;
+    margin-left: 5rem;
+ }
+ .content__right{
+    width: 62rem; 
+    margin-right: 4rem;
+ }
+ .width{
+    width: 100%;
+ }
+ .name-job{
+     background: green;
+     height: 43.5rem;
+ }
+ .profile{
+    background: yellow;
+    height: 36rem;  
+ }
+ .contact{
+    background: rgb(255, 94, 0);
+    height: 33rem;   
+ }
+ .skills{
+    background: rgb(21, 255, 0);
+    height: 43rem;  
+ }
+ .education{
+    background: rgb(21, 255, 0);
+    height: 61.3rem;  
+ }
+ .expwrience{
+    background: rgb(255, 94, 0);
+    height: 54.7rem;   
+ }
+ .software{
+    background: rgb(38, 13, 148);
+    height: 39.5rem;  
+ }
+ 
