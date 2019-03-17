@@ -1,9 +1,12 @@
 extends template/template
 
+include logo/logo
+
 block content
     .content
         .content__left
             .name-job.width
+                +logo({name: 'name here', surname: 'surname', job: 'graphic designer'})
             .profile.width
             .contact.width
             .skills.width

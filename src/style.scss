@@ -1,5 +1,16 @@
+@mixin ring($diameter, $border, $shadow, $mainColor, $minorColor) {
+    background: $mainColor;
+    border : $border solid $minorColor;
+    border-radius: 50%;
+    width: $diameter;
+    height: $diameter;
+    position: relative;
+    box-shadow: 0 0 0 $shadow $mainColor;
+    }
 @import 'reset/reset.scss';
 @import 'fonts/fonts.scss';
+@import 'logo/logo.scss';
+
 
 .content{
     display:-webkit-box;
@@ -33,7 +44,6 @@
     width: 100%;
  }
  .name-job{
-     background: green;
      height: 43.5rem;
  }
  .profile{
@@ -60,4 +70,15 @@
     background: rgb(38, 13, 148);
     height: 39.5rem;  
  }
- 
+ @mixin ring($diameter, $border, $shadow, $mainColor, $minorColor) {
+    background: $mainColor;
+    border : $border solid $minorColor;
+    border-radius: 50%;
+    width: $diameter;
+    height: $diameter;
+    position: relative;
+    box-shadow: 0 0 0 $shadow $mainColor;
+    }
+// .stylish{ 
+//     @include ring(5.3vw, 0.2vw, 0.01vw, #385a94, #ffffff);
+// }

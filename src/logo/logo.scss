@@ -1,0 +1,30 @@
+.logo{
+    padding-top:1.3rem; 
+}
+.logo__ring{
+    @include ring(19.4rem, 1.45rem, 0.12rem, #385a94, #ffffff);
+    margin-left:10.5rem;
+}
+.logo__name{
+    text-transform: uppercase;
+    font-family: 'MyriadProLight';
+    letter-spacing:-.14rem;
+    font-size: 5.38rem;
+    padding-top: 2.95rem;
+    padding-left: 1.4rem;
+}
+.logo__surname{
+    text-transform: uppercase;
+    font-family: 'MyriadProBold';
+    font-size: 6rem;
+    margin-top: -.55rem;
+    padding-left: 1.4rem; 
+}
+.logo__job{
+    text-transform: uppercase;
+    font-family: 'MyriadProBold';
+    font-size: 2.35rem;
+    letter-spacing:-.01rem;
+    padding-top: .8rem;
+    padding-left: 1.4rem;
+}
