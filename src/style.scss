@@ -10,6 +10,7 @@
 @import 'reset/reset.scss';
 @import 'fonts/fonts.scss';
 @import 'logo/logo.scss';
+@import 'profile/profile.scss';
 
 
 .content{
@@ -47,7 +48,6 @@
      height: 43.5rem;
  }
  .profile{
-    background: yellow;
     height: 36rem;  
  }
  .contact{
