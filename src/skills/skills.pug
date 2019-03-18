@@ -1,0 +1,47 @@
+mixin skills (header)
+    .skills
+            .skills__header
+                .skills__header-ring
+                h2(class='skills__header-header')= header
+                .skills__header-line
+
+            .skills__box    
+                h3(class='skills__creative skills__color')  CREATIVE                                             
+                ul.skills__line-ring
+                    - for (var i=0; i<12; i++) 
+                        if i < 9
+                            li
+                            div(class="ring" style={background: '#3d6cb0'})  
+                        else
+                            li
+                            div(class="ring" style={background: '#e6e6e6'})
+            .skills__box    
+                h3(class='skills__teamwork skills__color')  TEAMWORK                                             
+                ul.skills__line-ring 
+                    - for (var i=0; i<12; i++) 
+                        if i < 11
+                            li
+                            div(class="ring" style={background: '#3d6cb0'})  
+                        else
+                            li
+                            div(class="ring" style={background: '#e6e6e6'})
+            .skills__box    
+                h3(class='skills__innovate skills__color')  INNOVATE                                             
+                ul.skills__line-ring
+                    - for (var i=0; i<12; i++) 
+                        if i < 6
+                            li
+                            div(class="ring" style={background: '#3d6cb0'})  
+                        else
+                            li
+                            div(class="ring" style={background: '#e6e6e6'})
+            .skills__box    
+                h3(class='skills__communication skills__color')  COMMUNICATION                                             
+                ul.skills__line-ring
+                    - for (var i=0; i<12; i++) 
+                        if i < 11
+                            li
+                            div(class="ring ring-comm" style={background: '#3d6cb0'})  
+                        else
+                            li
+                            div(class="ring ring-comm" style={background: '#e6e6e6'})               

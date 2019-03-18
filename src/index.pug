@@ -3,6 +3,7 @@ extends template/template
 include logo/logo
 include profile/profile
 include contact/contact
+include skills/skills
 
 block content
     .content
@@ -14,6 +15,7 @@ block content
             .contact.width
                 +contact('contact')
             .skills.width
+                +skills('skills')
         .content__right  
             .education.width
             .expwrience.width

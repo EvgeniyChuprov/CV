@@ -12,6 +12,7 @@
 @import 'logo/logo.scss';
 @import 'profile/profile.scss';
 @import 'contact/contact.scss';
+@import 'skills/skills.scss';
 
 
 .content{
@@ -55,7 +56,6 @@
     height: 33rem;   
  }
  .skills{
-    background: rgb(21, 255, 0);
     height: 43rem;  
  }
  .education{
