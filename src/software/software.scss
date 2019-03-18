@@ -1,0 +1,150 @@
+.software__header {
+    display: flex;
+}
+.software__header-header{
+  text-transform: uppercase;
+  font-family: 'MyriadProBold';
+  color: #3d6cb0;
+  letter-spacing:0.07vw;
+  font-size: 3.2vw;
+  margin-right: 2%;
+  margin-left: 3.4%;
+  padding-top: 7.8%;
+
+}
+.software__header-line {
+  height: .4vw;
+  width: 48.5%;
+  display: flex;
+  background: #3d6cb0;
+  margin-top: 10.3%;
+  margin-left: 1.7%;
+  position: relative;
+}
+
+.software__header-ring {
+  @include ring(5.3vw, 0.2vw, 0.01vw, #385a94, #ffffff);
+  margin-top: 5%;
+  margin-left: .5%;
+}
+
+
+.software-column{
+  display: flex;
+  column-width: 20vw;
+}
+.software-column__photoshop, .software-column__illustrator, .software-column__indesign,
+ .software-column__dreamweaver, .software-column__after-effects, .software-column__html5css3{
+    width: 20vw;
+    height: 1.5vw;
+    text-align: left;
+    margin-left: 6%;
+}
+.software-column__photoshop{
+  margin-top: 11.6%;
+  margin-left: 3.6%;
+}
+.software-column__illustrator{
+  margin-top: 28%;
+  margin-left: 3.5%;
+}
+
+.software-column__indesign{
+  margin-top: 27.5%;
+  margin-left: 3.5%;
+}
+.software-column__h2 {
+    font-size: 2.45rem;
+    letter-spacing: .02rem;
+    font-family: 'MyriadPro';
+    font-weight: 100;
+}
+
+.software-column_points {
+  margin-top: 6.5%;
+  background-color: #e6e6e6;
+  width: 22.4vw;
+  height: 1.75vw;
+}
+.software-column_points_colored {
+  background-color: #3d6cb0;
+  width: 20.3vw;
+  height: 1.75vw;
+}
+.software-column_points-il{
+  margin-top: 5.8%;
+  background-color: #e6e6e6;
+  width: 22.4vw;
+  height: 1.75vw;
+}
+.software-column_points_colored-li{
+  background-color: #3d6cb0;
+  width: 15.67vw;
+  height: 1.75vw;
+}
+.software-column_points_colored-in{
+  background-color: #3d6cb0;
+  width: 12.5vw;
+  height: 1.75vw;
+
+}
+.software-column_points-in{
+  margin-top: 4.5%;
+  background-color: #e6e6e6;
+  width: 22.4vw;
+  height: 1.75vw;
+}
+
+.software-column__right {
+  margin-left: 15%;
+}
+.software-column__dreamweaver{
+  margin-top: 11.5%;
+  margin-left: 5%;  
+}
+.software-column__after-effects{
+  margin-top: 27.7%;
+  margin-left: 5%;
+}
+.software-column__html5css3{
+  margin-top: 27.8%;
+  margin-left:5.2%;
+}
+
+.software-column_points-dr{
+  margin-top: 6.6%;
+  margin-left: -.5%;
+  background-color: #e6e6e6;
+  width: 22.4vw;
+  height: 1.75vw;
+}
+.software-column_points_colored-dr{
+  background-color: #3d6cb0;
+  width: 18.5vw;
+  height: 1.75vw;
+}
+
+.software-column_points_colored-af{
+  background-color: #3d6cb0;
+  width: 13.6vw;
+  height: 1.75vw;
+}
+.software-column_points-af{
+  margin-top: 6%;
+  margin-left:-.5%;
+  background-color: #e6e6e6;
+  width: 22.4vw;
+  height: 1.75vw;
+}
+.software-column_points_colored-hc{
+  background-color: #3d6cb0;
+  width: 20.2vw;
+  height: 1.75vw;
+}
+.software-column_points-hc{
+  margin-top: 4.9%;
+  margin-left:-1%;
+  background-color: #e6e6e6;
+  width: 22.4vw;
+  height: 1.75vw;
+}
