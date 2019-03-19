@@ -1,10 +1,6 @@
 mixin skills (header)
     .skills
-            .skills__header
-                .skills__header-ring
-                h2(class='skills__header-header')= header
-                .skills__header-line
-
+            +header({header: 'skills', img: '/src/img/SKILLS_ICON.svg', alt: 'skills icon'})
             .skills__box    
                 h3(class='skills__creative skills__color')  CREATIVE                                             
                 ul.skills__line-ring

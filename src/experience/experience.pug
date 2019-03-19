@@ -1,9 +1,6 @@
-mixin experience (header, text)
+mixin experience ()
     .experience
-            .experience__header
-                .experience__header-ring
-                h2(class='experience__header-header')= header
-                .experience__header-line
+            +header({header: 'experience', img: '/src/img/EXPERIENCE_ICON.svg', alt: 'experience icon'})
             .experience__list
                         strong(class="experience__block-name") COMPANY NAME 
                             span(class="experience__block-data")  // Feb 2011 - Jun 2014

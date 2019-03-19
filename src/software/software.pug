@@ -1,9 +1,6 @@
-mixin software (header)
+mixin software ()
     .software
-            .software__header
-                .software__header-ring
-                h2.software__header-header= header
-                .software__header-line
+            +header({header: 'software', img: '/src/img/SOFTWARE_ICON.svg', alt: 'software icon'})
             .software-column
                 .software-column__left
                     .software-column__photoshop

@@ -1,35 +1,4 @@
-  .experience__header {
-      display: flex;
-      margin-top: 3%;
-      margin-bottom:3.8%;
-  }
-  .experience__header-header{
-    text-transform: uppercase;
-    font-family: 'MyriadProBold';
-    color: #3d6cb0;
-    letter-spacing:0.03vw;
-    font-size: 3.26vw;
-    margin-right: 2%;
-    margin-left: 3%;
-    padding-top: 7.7%;
-  
-  }
-  .experience__header-line {
-    height: .45vw;
-    width: 48.5%;
-    display: flex;
-    background: #3d6cb0;
-    margin-top: 10.3%;
-    margin-left: -1.7%;
-    position: relative;
-  }
-  
-  .experience__header-ring {
-    @include ring(5.5vw, 0.2vw, 0.01vw, #3d6cb0, #ffffff);
-    margin-top: 5%;
-    margin-left: .5%;
-  }
-  .experience__list{
+ .experience__list{
     position: relative;
     display: block;
     margin-top: 6.9%;

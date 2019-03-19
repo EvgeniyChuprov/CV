@@ -1,0 +1,30 @@
+.contact__header {
+    display: flex;
+}
+.contact__header-header{
+  text-transform: uppercase;
+  font-family: 'MyriadProBold';
+  color: #3d6cb0;
+  letter-spacing:0.06vw;
+  font-size: 3.2vw;
+  margin-right: 1.8%;
+  margin-left: 3%;
+  padding-top: 6.5%;
+
+}
+.contact__header-line {
+  height: .4vw;
+  width: 34%;
+  display: flex;
+  background: #3d6cb0;
+  margin-top: 10.1%;
+  position: relative;
+}
+
+.contact__header-ring {
+  width:5.8vw;
+  height:5.8vw;
+  height: 5.8vw;
+  margin-top: 2.5%;
+  margin-left: 2.1%;
+}

@@ -1,9 +1,6 @@
-mixin education (header, text)
+mixin education ()
     .education
-            .education__header
-                .education__header-ring
-                h2(class='education__header-header')= header
-                .education__header-line
+            +header({header: 'education', img: '/src/img/EDUCATION_ICON.svg', alt: 'education icon'})
             .education__list
                         strong(class="education__block-name") MASTER DEGREE 
                             span(class="education__block-data") // Feb 2011 - Jun 2014

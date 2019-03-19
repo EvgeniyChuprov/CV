@@ -1,9 +1,6 @@
-mixin contact (header)
+mixin contact ()
     .contact
-        .contact__header
-            .contact__header-ring
-            h2(class='contact__header-header')= header
-            .contact__header-line
+        +header({header: 'contact', img: '/src/img/Phone_Icon.svg', alt: 'contact icon'})
         table.contact__table
             tr
                 td.contact__table-headline
