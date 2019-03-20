@@ -18,7 +18,6 @@
 @import 'software/software';
 @import 'header/header';
 
-
 .content{
     display:-webkit-box;
     display:-ms-flexbox;
@@ -31,43 +30,16 @@
     -webkit-box-direction:normal;
     -ms-flex-direction:row;
     flex-direction:row;
+    padding: 6.1% 3.3% 0 4.2%;
     max-width:100%
  }
-
- .content__left, .content__right{
-    margin-top: 7.25rem;
-    height: 155.5rem;
- }
  .content__left{
-    width: 42rem;
-    height: 155.5rem;
-    margin-left: 5rem;
+    width: 38.2%;
+    margin-right: 5.5%;
  }
  .content__right{
-    width: 62rem; 
-    margin-right: 4rem;
+    width: 56.3%; 
  }
  .width{
     width: 100%;
- }
- .name-job{
-     height: 43.5rem;
- }
- .profile{
-    height: 36rem;  
- }
- .contact{
-    height: 33rem;   
- }
- .skills{
-    height: 43rem;  
- }
- .education{
-    height: 61.3rem;  
- }
- .expwrience{
-    height: 54.7rem;   
- }
- .software{
-    height: 39.5rem;  
  }

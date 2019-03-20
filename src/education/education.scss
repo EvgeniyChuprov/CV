@@ -1,3 +1,7 @@
+.education{
+  padding-bottom: 4%;
+  padding-left: -2%;
+}
   .education__text{
     font-family: 'MyriadPro';
     background: black;
@@ -7,16 +11,13 @@
     margin-left: 4%;
     margin-right: 3%;
   }
-  .education__list{
-    position: relative;
-    display: block;
-  }
+ 
   .education__list::before{
     content: "";
     position: absolute;
-    width: 2rem;
-    height: 2rem;
-    top:4%;
+    width: 1.5vw;
+    height: 1.55vw;
+    top:3.9%;
     left: 2.2%;
     background-color: black;
     border-radius: 50%;
@@ -30,15 +31,16 @@
     letter-spacing: 0.035vw;
   }
   .education__block-data{
+    color:black;
     font-family: 'MyriadPro';
     letter-spacing: -.01rem;
     font-size: 2.1vw;
-    margin-left: 1.8%;
+    margin-left: 1.6%;
   }
   .education_text_job{
     text-align: left;
-    padding-left:8.5%;
-    padding-top: 0.5vw; 
+    padding-left:8.3%;
+    padding-top: .99%; 
     font-family: 'MyriadPro';
     font-size: 2vw;
     letter-spacing: 0.04vw;
@@ -47,24 +49,23 @@
   .education_text{
     text-align: left; 
     font-family: 'MyriadPro';
-    padding-left:4.5vw;
-    padding-top: 0.6vw;
+    padding-left:8.7%;
+    padding-top: 1.1%;
     font-size: 1.2vw;
     letter-spacing: 0.019vw;
-    line-height: 1.8rem;
-  
+    line-height: 1.5vw;
   }
   .education__list{
-  margin-top: -.8%;
+  margin-top: 4.4%;
   position: relative;
   display: block;
   }
-  .two{
-    margin-top:2.3%; 
+  .second{
+   margin-top:2.3%; 
   }
-  .three{
+  .third{
     margin-top:2.2%; 
   }
-  .four{
+  .fourth{
     margin-top:2%;
   }

@@ -1,14 +1,18 @@
+.experience{
+  padding-top: .5%;
+  padding-bottom: 8.6%;
+}
  .experience__list{
     position: relative;
     display: block;
-    margin-top: 6.9%;
+    margin-top: 6.8%;
   }
  
-  .experience__list::before{
+.experience__list::before{
     content: "";
     position: absolute;
-    width: 2rem;
-    height: 2rem;
+    width: 1.5vw;
+    height: 1.55vw;
     top:2.5%;
     left: 2.2%;
     background-color: black;
@@ -18,8 +22,8 @@
   .experience__block-name{
     font-family: 'MyriadProBold';
     font-size: 2vw;
-    margin-left:-13.6%; 
-    letter-spacing: 0.048rem;
+    margin-left:-13.7%; 
+    letter-spacing: 0.035vw;
   }
   .experience__block-data{
     font-family: 'MyriadPro';
@@ -37,20 +41,19 @@
     line-height:2.3vw;
   }
   .experience_text{
-
     text-align: left; 
     font-family: 'MyriadPro';
     padding-left:4.5vw;
     padding-top: 0.6vw;
     font-size: 1.2vw;
     letter-spacing: 0.019vw;
-    line-height: 1.8rem;
+    line-height: 1.5vw;
   }
 
   .two{
     margin-top:2.2%; 
   }
   .three{
-    margin-top:2.5%; 
+    margin-top:2.6%;
   }
   

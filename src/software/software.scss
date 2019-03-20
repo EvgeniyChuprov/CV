@@ -1,6 +1,8 @@
+.software{
+  padding-bottom: 7.6%;
+}
 .software-column{
   display: flex;
-  column-width: 20vw;
 }
 .software-column__photoshop, .software-column__illustrator, .software-column__indesign,
  .software-column__dreamweaver, .software-column__after-effects, .software-column__html5css3{
@@ -10,21 +12,21 @@
     margin-left: 6%;
 }
 .software-column__photoshop{
-  margin-top: 11.6%;
+  margin-top: 10%;
   margin-left: 3.6%;
 }
 .software-column__illustrator{
   margin-top: 28%;
-  margin-left: 3.5%;
+  margin-left: 3.3%;
 }
 
 .software-column__indesign{
   margin-top: 27.5%;
-  margin-left: 3.5%;
+  margin-left: 3.3%;
 }
 .software-column__h2 {
-    font-size: 2.45rem;
-    letter-spacing: .02rem;
+    font-size: 2.04vw;
+    letter-spacing: .01vw;
     font-family: 'MyriadPro';
     font-weight: 100;
 }
@@ -68,16 +70,16 @@
   margin-left: 15%;
 }
 .software-column__dreamweaver{
-  margin-top: 11.5%;
+  margin-top: 10%;
   margin-left: 5%;  
 }
 .software-column__after-effects{
-  margin-top: 27.7%;
+  margin-top: 27.9%;
   margin-left: 5%;
 }
 .software-column__html5css3{
   margin-top: 27.8%;
-  margin-left:5.2%;
+  margin-left:5.1%;
 }
 
 .software-column_points-dr{
