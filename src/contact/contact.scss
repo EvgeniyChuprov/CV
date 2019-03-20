@@ -18,8 +18,7 @@
   .contact__text-color{
     font-family: 'MyriadPro';
     font-size: 1.6vw; 
-    text-align: center;
-   
+    text-align: center; 
   }
   .contact__headline-addres{
     letter-spacing:0.02vw;
@@ -58,3 +57,31 @@
     margin-left: 21%;
     letter-spacing:0.03vw;
   }  
+  @media only screen and (max-width: 600px){
+    .contact{
+      padding-bottom: 2%;
+    }
+    .contact__table{
+      margin:auto;
+      width: 70%;
+    }
+    .contact__headline-color{
+      letter-spacing:0.08vw;
+      font-size: 5vw; 
+    }
+    .contact__text-color{
+      font-size: 5vw; 
+    }
+    .contact__headline-addres{
+       padding-top:15%;
+    }
+    .contact__headline-mail{
+       padding-top:15%;
+    }
+    .contact__headline-phone{
+      padding-top:15%;
+    }
+    .contact__headline-web{
+      margin-top:15%;
+    }
+  }

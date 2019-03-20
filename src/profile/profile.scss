@@ -17,3 +17,14 @@
     font-family: 'MyriadProBold';
     line-height: 1.56vw;
 }
+@media only screen and (max-width: 600px){
+  .profile{
+    margin-top: 3%;
+    padding-bottom: 2%;
+  }
+  .profile__text{
+    font-size: 2.7vw;
+    letter-spacing: 0.1vw;
+    line-height: 3vw;
+  }
+}

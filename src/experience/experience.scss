@@ -56,4 +56,28 @@
   .three{
     margin-top:2.6%;
   }
-  
+  @media only screen and (max-width: 600px){
+    .experience{
+      padding-bottom: 1%;
+    }
+    .experience__block-name{
+      font-size: 4vw;
+      margin-left:-13%; 
+    }
+    .experience__block-data{
+      font-size: 4vw;
+    }
+    .experience_text_job{
+      padding-top: 2%; 
+      font-size: 4vw;
+      padding-left: 7%;
+    }
+    .experience_text{
+      padding-top: 3.5%;
+      padding-bottom: 3.5%;
+      font-size: 2.7vw;
+      letter-spacing: 0.1vw;
+      line-height: 3vw;
+      padding-left: 7%;
+    }
+  }
