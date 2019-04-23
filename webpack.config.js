@@ -32,7 +32,7 @@ module.exports = {
                     {
                         loader: 'file-loader',
                         options:{
-                           name: '[name].[ext]',
+                           name: '/img/[name].[ext]',
                            outputPath:'./',
                            useRelativePath: true 
                         }
@@ -58,8 +58,15 @@ module.exports = {
              {
                      test: /\.(woff|woff2|eot|ttf|otf)$/,
                      use: [
-                        'file-loader'
-                        ]
+                        {
+                            loader: 'file-loader',
+                            options:{
+                               name: 'fonts/[name].[ext]',
+                               outputPath:'./',
+                               useRelativePath: true 
+                            }
+                        }
+                    ]
                       }
         ]
     },
