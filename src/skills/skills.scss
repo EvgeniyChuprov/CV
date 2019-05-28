@@ -1,80 +1,26 @@
-@mixin param() {
-  margin-left: -.1%;
-  letter-spacing:-0.02vw;
-  margin-top: 6.6%;
-  font-size: 2.1vw;
-  }
 .skills{
-  padding-top:1.2%; 
-  padding-left: -0.2%;
-  padding-bottom: 5.5%;
-}
-  
-  .skills__box {
-    width: 77%;
-    margin: auto;
-  }
-  .skills__color{
-    font-family: 'MyriadPro';
+  padding: 2.4% 0 4% 0;
+  &__name{
+    font-family: "MyriadPro";
+    text-transform: uppercase;
     text-align: center;
-    font-size: 2vw;
+    font-size: 2.5rem;
     margin: auto;
-    letter-spacing:0.05vw;
+    letter-spacing: 0;
   }
-  .skills__creative{
-    margin-left: .5%;
-    letter-spacing:-0.005vw;
-    margin-top: 7%;
-    font-size: 2.1vw;
-  }
-  
-  
-  .skills__line-ring{
+  &__line{
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
-    padding: 3.5% 3% 0 0;
+    padding: 3.3% 3.4% 0 0.4%;
     overflow: hidden;
     list-style: none;
-  }
-  .ring{
-    background: #3d6cb0;
-     border-radius: 50%;
-     width: 1.4vw;
-     height: 1.4vw;
-     position: relative;
-  }
-  
-  .ring-comm{
-    margin-top: -1%;
-    margin-left: -1%;
-  }
-  .skills__teamwork{
-   @include param();
-  }
-  .skills__innovate{
-    @include param();
-  }
-  .skills__communication{
-    @include param();
-  }
-
-@media only screen and (max-width: 600px){
-  .skills{
-    padding-top:1.2%; 
-    padding-left: -0.2%;
-    padding-bottom: 3%;
-  }
-  .skills__color{
-    font-size: 5vw;
-    letter-spacing:0.1vw;
-  } 
-  .ring{
-     width: 3vw;
-     height: 3vw;
-     position: relative;
-  }   
-  .skills__line-ring{
-    padding: 5% 3% 0 0;
+    .ring{
+      background:$blue-color;
+      border-radius: 50%;
+      width: 1.7rem;
+      height: 1.7rem;
+      position: relative;
+    }
   }
 }

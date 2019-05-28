@@ -1,87 +1,17 @@
-.contact{
-    margin-top: 0.8%;
-    padding-top: .2%;
-    padding-bottom: 4.6%;
+.contact {
+  padding: 1.63rem 0;
+  text-align: left;
+  &__title{
+    color:$blue-color;
+    font-family: "MyriadProBold";
+    font-size: 2rem;
+    text-transform: uppercase;
+    float: left;
+    width: 30%;
   }
-  .contact__table-headline, .contact__table-text {
-     margin: 0;
-     padding: 0;
+  &__value{
+    color:black;
+    font-family: "MyriadPro";
+    font-size: 2rem;
   }
-  .contact__headline-color{
-    font-family: 'MyriadProBold';
-    color: #385a94;
-    letter-spacing:0.08vw;
-    font-size: 1.5vw; 
-    font-weight: bold;
-    text-align: left;
-  }
-  .contact__text-color{
-    font-family: 'MyriadPro';
-    font-size: 1.6vw; 
-    text-align: center; 
-  }
-  .contact__headline-addres{
-    letter-spacing:0.02vw;
-    font-size: 1.64vw;
-     padding-top:35%;
-     padding-left: 9%;
-  }
-  .contact__text-addres{
-    margin-left: 18%;
-    letter-spacing:0.02vw;
-  }
-  .contact__headline-mail{
-    font-size: 1.59vw;
-    letter-spacing:0.03vw;
-     padding-top:35%;
-     padding-left: 10%;
-  }
-  .contact__text-mail{
-    margin-left: 21%;
-    letter-spacing:0.03vw;
-  }
-  .contact__headline-phone{
-    padding-top:37%;
-    padding-left: 10.1%;
-  }
-  .contact__text-phone{
-    letter-spacing:0.03vw;
-  }
-  .contact__headline-web{
-    font-size: 1.59vw;
-    letter-spacing:0.05vw;
-    margin-top:36%;
-    padding-left: 9.5%;
-  }
-  .contact__text-web{
-    margin-left: 21%;
-    letter-spacing:0.03vw;
-  }  
-  @media only screen and (max-width: 600px){
-    .contact{
-      padding-bottom: 2%;
-    }
-    .contact__table{
-      margin:auto;
-      width: 70%;
-    }
-    .contact__headline-color{
-      letter-spacing:0.08vw;
-      font-size: 5vw; 
-    }
-    .contact__text-color{
-      font-size: 5vw; 
-    }
-    .contact__headline-addres{
-       padding-top:15%;
-    }
-    .contact__headline-mail{
-       padding-top:15%;
-    }
-    .contact__headline-phone{
-      padding-top:15%;
-    }
-    .contact__headline-web{
-      margin-top:15%;
-    }
-  }
+}

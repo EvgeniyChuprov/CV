@@ -1,8 +1,8 @@
 mixin header(parametr)
-    -
-        var imgClassName = parametr.left ? "header__ring-left" : "header__ring-right"
-        var h2ClassName = parametr.left ? "header__header-left" : "header__header-right"
-        var headerClassName = parametr.left ? "header-left" : "header-right"
-    div(class= headerClassName)
-            img(class= imgClassName src= parametr.img alt= parametr.alt)
-            h2(class= h2ClassName)= parametr.header
+  -
+    var imgClassName = parametr.left ? "header__ring-left" : "header__ring-right"
+    var h2ClassName = parametr.left ? "header__header-left" : "header__header-right"
+    var headerClassName = parametr.left ? "header-left" : "header-right"
+  div(class= headerClassName)
+    img(class= imgClassName src= parametr.img alt= parametr.alt)
+    h2(class= h2ClassName)= parametr.header

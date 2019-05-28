@@ -1,156 +1,22 @@
+$gary-color : #e6e6e6;
 .software{
-  padding-bottom: 7.6%;
-}
-.software-column{
-  display: flex;
-}
-.software-column__photoshop, .software-column__illustrator, .software-column__indesign,
- .software-column__dreamweaver, .software-column__after-effects, .software-column__html5css3{
-    width: 20vw;
-    height: 1.5vw;
-    text-align: left;
-    margin-left: 6%;
-}
-.software-column__photoshop{
-  margin-top: 10%;
-  margin-left: 3.6%;
-}
-.software-column__illustrator{
-  margin-top: 28%;
-  margin-left: 3.3%;
-}
-
-.software-column__indesign{
-  margin-top: 27.5%;
-  margin-left: 3.3%;
-}
-.software-column__h2 {
-    font-size: 2.04vw;
-    letter-spacing: .01vw;
-    font-family: 'MyriadPro';
-    font-weight: 100;
-}
-
-.software-column_points {
-  margin-top: 6.5%;
-  background-color: #e6e6e6;
-  width: 112%;
-  height: 1.75vw;
-}
-.software-column_points_colored {
-  background-color: #3d6cb0;
-  width: 90.8%;
-  height: 1.75vw;
-}
-.software-column_points-il{
-  margin-top: 5.8%;
-  background-color: #e6e6e6;
-  width: 112%;
-  height: 1.75vw;
-}
-.software-column_points_colored-li{
-  background-color: #3d6cb0;
-  width: 70%;
-  height: 1.75vw;
-}
-.software-column_points_colored-in{
-  background-color: #3d6cb0;
-  width: 55.8%;
-  height: 1.75vw;
-
-}
-.software-column_points-in{
-  margin-top: 4.5%;
-  background-color: #e6e6e6;
-  width: 112%;
-  height: 1.75vw;
-}
-
-.software-column__right {
-  margin-left: 15%;
-}
-.software-column__dreamweaver{
-  margin-top: 10%;
-  margin-left: 5%;  
-}
-.software-column__after-effects{
-  margin-top: 27.9%;
-  margin-left: 5%;
-}
-.software-column__html5css3{
-  margin-top: 27.8%;
-  margin-left:5.1%;
-}
-
-.software-column_points-dr{
-  margin-top: 6.6%;
-  margin-left: -.5%;
-  background-color: #e6e6e6;
-  width: 112%;
-  height: 1.75vw;
-}
-.software-column_points_colored-dr{
-  background-color: #3d6cb0;
-  width: 82.5%;
-  height: 1.75vw;
-}
-
-.software-column_points_colored-af{
-  background-color: #3d6cb0;
-  width: 60.6%;
-  height: 1.75vw;
-}
-.software-column_points-af{
-  margin-top: 6%;
-  margin-left:-.5%;
-  background-color: #e6e6e6;
-  width: 112%;
-  height: 1.75vw;
-}
-.software-column_points_colored-hc{
-  background-color: #3d6cb0;
-  width: 90%;
-  height: 1.75vw;
-}
-.software-column_points-hc{
-  margin-top: 4.9%;
-  margin-left:-1%;
-  background-color: #e6e6e6;
-  width: 112%;
-  height: 1.75vw;
-}
-@media only screen and (max-width: 600px){
-  .software-column{
-    display: inline-block;
+  padding:1.2rem 0 1.2rem .8rem;
+  text-transform: uppercase;
+  font-family: "MyriadPro";
+  letter-spacing: -.04rem;
+  font-weight: 100;
+  font-size: 2.55rem;
+  text-align: left;
+  &__title{
+    padding: 0 0 1.5rem 0;
+  }
+  &__points{
+    height: 1.75vw;
+    background-color: $gary-color;
     width: 100%;
-    margin-top: 5%;
-  }
-  .software-column__photoshop,.software-column__after-effects, .software-column__html5css3{
-    margin: auto;
-  }
-  .software-column__h2 {
-    font-size: 3vw;
-    letter-spacing: .03vw;
-  }
-  .software-column_points, .software-column_points-il,
-   .software-column_points-in, .software-column_points-dr,
-    .software-column_points-af, .software-column_points-hc {
-    margin-left: -50%;
-    width: 212%;
-    height: 3vw;
-  }
-  .software-column_points_colored, .software-column_points_colored-li, .software-column_points_colored-in,
-   .software-column_points_colored-dr, .software-column_points_colored-af, .software-column_points_colored-hc {
-    height: 3vw;
-  }
-  .software-column__illustrator, .software-column__indesign, .software-column__dreamweaver{
-    margin: auto;
-    margin-top: 10%;
-  }
-  .software-column__right{
-    margin: 0;
-  }
-  .software-column__after-effects, .software-column__html5css3{
-    margin-top: 10%;
+    &-colored{
+      background-color: $blue-color;
+      height: 1.75vw;
+    }
   }
 }

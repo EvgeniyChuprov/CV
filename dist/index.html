@@ -3,288 +3,289 @@
   <head><link href="main.css" rel="stylesheet"></head>
   <meta charset="utf-8">
   <meta name="viewport" content="initial-scale=1.0, width=device-width, shrink-to-fit=no">
-  <title>Webpack app</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+  <link rel="manifest" href="favicons/site.webmanifest">
+  <link rel="mask-icon" href="img/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#2d89ef">
+  <meta name="theme-color" content="#ffffff">
+  <title>CV</title>
   <body>
     <div class="content">
       <div class="content__left">
-        <div class="name-job width">
-          <div class="logo">
-            <div class="logo__ring"></div>
-            <div class="logo__name">name here</div>
-            <div class="logo__surname">surname</div>
-            <div class="logo__job">graphic designer</div>
-          </div>
+        <div class="logo">
+          <div class="logo__ring"></div>
+          <div class="logo__name">name here</div>
+          <div class="logo__surname">surname</div>
+          <div class="logo__job">graphic designer</div>
         </div>
-        <div class="profile width">
-          <div class="profile">
-            <div class="header-left"><img class="header__ring-left" src="img/PROFILE_ICON.svg" alt="profile icon">
-              <h2 class="header__header-left">profile</h2>
-            </div>
-            <p class="profile__text">
-               Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
-               Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-               Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
-               Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a,
-               venenatis vitae, justo. Nullam dictum felis eu <strong class='profile__text-strong'>pede mollis pretium. Integer tincidunt. Cras dapibus.
-               Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae,
-               eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. 
-              Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. </strong> 
-            </p>
+        <div class="profile">
+          <div class="header-left"><img class="header__ring-left" src="img/profile.svg" alt="profile icon">
+            <h2 class="header__header-left">profile</h2>
           </div>
+          <p class="profile__text">
+             Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+             Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+             Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+             Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a,
+             venenatis vitae, justo. Nullam dictum felis eu <strong class='profile__text-strong'>pede mollis pretium. Integer tincidunt. Cras dapibus.
+             Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae,
+             eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. 
+            Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. </strong> 
+          </p>
         </div>
-        <div class="contact width">
+        <div class="header-left"><img class="header__ring-left" src="img/contact.svg" alt="contact icon">
+          <h2 class="header__header-left">contact</h2>
+        </div>
+        <div class="contact-block">
           <div class="contact">
-            <div class="header-left"><img class="header__ring-left" src="img/Phone_Icon.svg" alt="contact icon">
-              <h2 class="header__header-left">contact</h2>
-            </div>
-            <table class="contact__table">
-              <tr>
-                <td class="contact__table-headline">
-                  <h4 class="contact__headline-addres contact__headline-color">ADDRESS</h4>
-                </td>
-                <td class="contact__table-text"> 
-                  <p class="contact__text-addres contact__text-color">Main Street, City.</p>
-                </td>
-              </tr>
-              <tr>   
-                <td class="contact__table-headline"> 
-                  <h4 class="contact__headline-mail contact__headline-color">E-MAIL</h4>
-                </td>
-                <td class="contact__table-text">  
-                  <p class="contact__text-mail contact__text-color">contact@domain.com</p>
-                </td>
-              </tr>
-              <tr>   
-                <td class="contact__table-headline"> 
-                  <h4 class="contact__headline-phone contact__headline-color">PHONE</h4>
-                </td>
-                <td class="contact__table-text"> 
-                  <p class="contact__text-phone  contact__text-color">555-555-555</p>
-                </td>
-              </tr>
-              <tr>   
-                <td class="contact__table-headline"> 
-                  <h4 class="contact__headline-web contact__headline-color">WEBSITE</h4>
-                </td>
-                <td class="contact__table-text"> 
-                  <p class="contact__text-web contact__text-color">www.yourweb.com  </p>
-                </td>
-              </tr>
-            </table>
+            <div class="contact__title">address</div>
+            <div class="contact__value">Main Street, City</div>
+          </div>
+          <div class="contact">
+            <div class="contact__title">e-mail</div>
+            <div class="contact__value">contact@domain.com</div>
+          </div>
+          <div class="contact">
+            <div class="contact__title">phone</div>
+            <div class="contact__value">555-555-555</div>
+          </div>
+          <div class="contact">
+            <div class="contact__title">website</div>
+            <div class="contact__value">www.yourweb.com</div>
           </div>
         </div>
-        <div class="skills width">
-          <div class="skills">
-            <div class="header-left"><img class="header__ring-left" src="img/SKILLS_ICON.svg" alt="skills icon">
-              <h2 class="header__header-left">skills</h2>
-            </div>
-            <div class="skills__box">   
-              <h3 class="skills__creative skills__color"> CREATIVE                                             </h3>
-              <ul class="skills__line-ring">
-                <li></li>
-                <div class="ring" style="background:#3d6cb0;"> </div>
-                <li></li>
-                <div class="ring" style="background:#3d6cb0;"> </div>
-                <li></li>
-                <div class="ring" style="background:#3d6cb0;"> </div>
-                <li></li>
-                <div class="ring" style="background:#3d6cb0;"> </div>
-                <li></li>
-                <div class="ring" style="background:#3d6cb0;"> </div>
-                <li></li>
-                <div class="ring" style="background:#3d6cb0;"> </div>
-                <li></li>
-                <div class="ring" style="background:#3d6cb0;"> </div>
-                <li></li>
-                <div class="ring" style="background:#3d6cb0;"> </div>
-                <li></li>
-                <div class="ring" style="background:#3d6cb0;"> </div>
-                <li></li>
-                <div class="ring" style="background:#e6e6e6;"></div>
-                <li></li>
-                <div class="ring" style="background:#e6e6e6;"></div>
-                <li></li>
-                <div class="ring" style="background:#e6e6e6;"></div>
-              </ul>
-            </div>
-            <div class="skills__box">   
-              <h3 class="skills__teamwork skills__color"> TEAMWORK                                             </h3>
-              <ul class="skills__line-ring"> 
-                <li></li>
-                <div class="ring" style="background:#3d6cb0;"> </div>
-                <li></li>
-                <div class="ring" style="background:#3d6cb0;"> </div>
-                <li></li>
-                <div class="ring" style="background:#3d6cb0;"> </div>
-                <li></li>
-                <div class="ring" style="background:#3d6cb0;"> </div>
-                <li></li>
-                <div class="ring" style="background:#3d6cb0;"> </div>
-                <li></li>
-                <div class="ring" style="background:#3d6cb0;"> </div>
-                <li></li>
-                <div class="ring" style="background:#3d6cb0;"> </div>
-                <li></li>
-                <div class="ring" style="background:#3d6cb0;"> </div>
-                <li></li>
-                <div class="ring" style="background:#3d6cb0;"> </div>
-                <li></li>
-                <div class="ring" style="background:#3d6cb0;"> </div>
-                <li></li>
-                <div class="ring" style="background:#3d6cb0;"> </div>
-                <li></li>
-                <div class="ring" style="background:#e6e6e6;"></div>
-              </ul>
-            </div>
-            <div class="skills__box">   
-              <h3 class="skills__innovate skills__color"> INNOVATE                                             </h3>
-              <ul class="skills__line-ring">
-                <li></li>
-                <div class="ring" style="background:#3d6cb0;"> </div>
-                <li></li>
-                <div class="ring" style="background:#3d6cb0;"> </div>
-                <li></li>
-                <div class="ring" style="background:#3d6cb0;"> </div>
-                <li></li>
-                <div class="ring" style="background:#3d6cb0;"> </div>
-                <li></li>
-                <div class="ring" style="background:#3d6cb0;"> </div>
-                <li></li>
-                <div class="ring" style="background:#3d6cb0;"> </div>
-                <li></li>
-                <div class="ring" style="background:#e6e6e6;"></div>
-                <li></li>
-                <div class="ring" style="background:#e6e6e6;"></div>
-                <li></li>
-                <div class="ring" style="background:#e6e6e6;"></div>
-                <li></li>
-                <div class="ring" style="background:#e6e6e6;"></div>
-                <li></li>
-                <div class="ring" style="background:#e6e6e6;"></div>
-                <li></li>
-                <div class="ring" style="background:#e6e6e6;"></div>
-              </ul>
-            </div>
-            <div class="skills__box">   
-              <h3 class="skills__communication skills__color"> COMMUNICATION                                             </h3>
-              <ul class="skills__line-ring">
-                <li></li>
-                <div class="ring ring-comm" style="background:#3d6cb0;"> </div>
-                <li></li>
-                <div class="ring ring-comm" style="background:#3d6cb0;"> </div>
-                <li></li>
-                <div class="ring ring-comm" style="background:#3d6cb0;"> </div>
-                <li></li>
-                <div class="ring ring-comm" style="background:#3d6cb0;"> </div>
-                <li></li>
-                <div class="ring ring-comm" style="background:#3d6cb0;"> </div>
-                <li></li>
-                <div class="ring ring-comm" style="background:#3d6cb0;"> </div>
-                <li></li>
-                <div class="ring ring-comm" style="background:#3d6cb0;"> </div>
-                <li></li>
-                <div class="ring ring-comm" style="background:#3d6cb0;"> </div>
-                <li></li>
-                <div class="ring ring-comm" style="background:#3d6cb0;"> </div>
-                <li></li>
-                <div class="ring ring-comm" style="background:#3d6cb0;"> </div>
-                <li></li>
-                <div class="ring ring-comm" style="background:#3d6cb0;"> </div>
-                <li></li>
-                <div class="ring ring-comm" style="background:#e6e6e6;">              </div>
-              </ul>
-            </div>
+        <div class="header-left"><img class="header__ring-left" src="img/skills.svg" alt="skills icon">
+          <h2 class="header__header-left">skills</h2>
+        </div>
+        <div class="skills-block">
+          <div class="skills"> 
+            <h3 class="skills__name">creative</h3>
+            <ul class="skills__line">
+              <li></li>
+              <div class="ring" style="background:#3d6cb0;"> </div>
+              <li></li>
+              <div class="ring" style="background:#3d6cb0;"> </div>
+              <li></li>
+              <div class="ring" style="background:#3d6cb0;"> </div>
+              <li></li>
+              <div class="ring" style="background:#3d6cb0;"> </div>
+              <li></li>
+              <div class="ring" style="background:#3d6cb0;"> </div>
+              <li></li>
+              <div class="ring" style="background:#3d6cb0;"> </div>
+              <li></li>
+              <div class="ring" style="background:#3d6cb0;"> </div>
+              <li></li>
+              <div class="ring" style="background:#3d6cb0;"> </div>
+              <li></li>
+              <div class="ring" style="background:#3d6cb0;"> </div>
+              <li></li>
+              <div class="ring" style="background:#e6e6e6;"></div>
+              <li></li>
+              <div class="ring" style="background:#e6e6e6;"></div>
+              <li></li>
+              <div class="ring" style="background:#e6e6e6;"></div>
+            </ul>
+          </div>
+          <div class="skills"> 
+            <h3 class="skills__name">teamwork</h3>
+            <ul class="skills__line">
+              <li></li>
+              <div class="ring" style="background:#3d6cb0;"> </div>
+              <li></li>
+              <div class="ring" style="background:#3d6cb0;"> </div>
+              <li></li>
+              <div class="ring" style="background:#3d6cb0;"> </div>
+              <li></li>
+              <div class="ring" style="background:#3d6cb0;"> </div>
+              <li></li>
+              <div class="ring" style="background:#3d6cb0;"> </div>
+              <li></li>
+              <div class="ring" style="background:#3d6cb0;"> </div>
+              <li></li>
+              <div class="ring" style="background:#3d6cb0;"> </div>
+              <li></li>
+              <div class="ring" style="background:#3d6cb0;"> </div>
+              <li></li>
+              <div class="ring" style="background:#3d6cb0;"> </div>
+              <li></li>
+              <div class="ring" style="background:#3d6cb0;"> </div>
+              <li></li>
+              <div class="ring" style="background:#3d6cb0;"> </div>
+              <li></li>
+              <div class="ring" style="background:#e6e6e6;"></div>
+            </ul>
+          </div>
+          <div class="skills"> 
+            <h3 class="skills__name">innovate</h3>
+            <ul class="skills__line">
+              <li></li>
+              <div class="ring" style="background:#3d6cb0;"> </div>
+              <li></li>
+              <div class="ring" style="background:#3d6cb0;"> </div>
+              <li></li>
+              <div class="ring" style="background:#3d6cb0;"> </div>
+              <li></li>
+              <div class="ring" style="background:#3d6cb0;"> </div>
+              <li></li>
+              <div class="ring" style="background:#3d6cb0;"> </div>
+              <li></li>
+              <div class="ring" style="background:#3d6cb0;"> </div>
+              <li></li>
+              <div class="ring" style="background:#e6e6e6;"></div>
+              <li></li>
+              <div class="ring" style="background:#e6e6e6;"></div>
+              <li></li>
+              <div class="ring" style="background:#e6e6e6;"></div>
+              <li></li>
+              <div class="ring" style="background:#e6e6e6;"></div>
+              <li></li>
+              <div class="ring" style="background:#e6e6e6;"></div>
+              <li></li>
+              <div class="ring" style="background:#e6e6e6;"></div>
+            </ul>
+          </div>
+          <div class="skills"> 
+            <h3 class="skills__name">communication</h3>
+            <ul class="skills__line">
+              <li></li>
+              <div class="ring" style="background:#3d6cb0;"> </div>
+              <li></li>
+              <div class="ring" style="background:#3d6cb0;"> </div>
+              <li></li>
+              <div class="ring" style="background:#3d6cb0;"> </div>
+              <li></li>
+              <div class="ring" style="background:#3d6cb0;"> </div>
+              <li></li>
+              <div class="ring" style="background:#3d6cb0;"> </div>
+              <li></li>
+              <div class="ring" style="background:#3d6cb0;"> </div>
+              <li></li>
+              <div class="ring" style="background:#3d6cb0;"> </div>
+              <li></li>
+              <div class="ring" style="background:#3d6cb0;"> </div>
+              <li></li>
+              <div class="ring" style="background:#3d6cb0;"> </div>
+              <li></li>
+              <div class="ring" style="background:#3d6cb0;"> </div>
+              <li></li>
+              <div class="ring" style="background:#3d6cb0;"> </div>
+              <li></li>
+              <div class="ring" style="background:#e6e6e6;"></div>
+            </ul>
           </div>
         </div>
       </div>
       <div class="content__right"> 
-        <div class="education width">
-          <div class="education">
-            <div class="header-right"><img class="header__ring-right" src="img/EDUCATION_ICON.svg" alt="education icon">
-              <h2 class="header__header-right">education</h2>
+        <div class="header-right"><img class="header__ring-right" src="img/education.svg" alt="education icon">
+          <h2 class="header__header-right">education</h2>
+        </div>
+        <div class="education-block">
+          <div class="practice">
+            <div class="practice__header">
+              <div class="practice__header__title">master degree</div>
+              <div class="practice__header__data">// Feb 2011 - Jun 2014</div>
+              <div class="practice__header__name">university name</div>
             </div>
-            <div class="education__list"><strong class="education__block-name">MASTER DEGREE <span class="education__block-data">// Feb 2011 - Jun 2014</span></strong>
-              <p class="education_text_job">UNIVERSITY NAME</p>
-              <p class="education_text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque.</p>
+            <div class="practice__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque.</div>
+          </div>
+          <div class="practice">
+            <div class="practice__header">
+              <div class="practice__header__title">master degree</div>
+              <div class="practice__header__data">// Feb 2011 - Jun 2014</div>
+              <div class="practice__header__name">university name</div>
             </div>
-            <div class="education__list second"><strong class="education__block-name">MASTER DEGREE </strong><span class="education__block-data">// Feb 2011 - Jun 2014</span>
-              <p class="education_text_job">UNIVERSITY NAME</p>
-              <p class="education_text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque. </p>
+            <div class="practice__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque.</div>
+          </div>
+          <div class="practice">
+            <div class="practice__header">
+              <div class="practice__header__title">master degree</div>
+              <div class="practice__header__data">// Feb 2011 - Jun 2014</div>
+              <div class="practice__header__name">university name</div>
             </div>
-            <div class="education__list third"><strong class="education__block-name">MASTER DEGREE </strong><span class="education__block-data">// Feb 2011 - Jun 2014</span>
-              <p class="education_text_job">UNIVERSITY NAME</p>
-              <p class="education_text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque. </p>
+            <div class="practice__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque.</div>
+          </div>
+          <div class="practice">
+            <div class="practice__header">
+              <div class="practice__header__title">master degree</div>
+              <div class="practice__header__data">// Feb 2011 - Jun 2014</div>
+              <div class="practice__header__name">university name</div>
             </div>
-            <div class="education__list fourth"><strong class="education__block-name">MASTER DEGREE </strong><span class="education__block-data">// Feb 2011 - Jun 2014</span>
-              <p class="education_text_job">UNIVERSITY NAME</p>
-              <p class="education_text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque.  </p>
-            </div>
+            <div class="practice__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque.</div>
           </div>
         </div>
-        <div class="expwrience width">
-          <div class="experience">
-            <div class="header-right"><img class="header__ring-right" src="img/EXPERIENCE_ICON.svg" alt="experience icon">
-              <h2 class="header__header-right">experience</h2>
+        <div class="header-right"><img class="header__ring-right" src="img/experience.svg" alt="experience icon">
+          <h2 class="header__header-right">experience</h2>
+        </div>
+        <div class="experience-block">
+          <div class="practice">
+            <div class="practice__header">
+              <div class="practice__header__title">company name</div>
+              <div class="practice__header__data">// Feb 2011 - Jun 2014</div>
+              <div class="practice__header__name">your job here</div>
             </div>
-            <div class="experience__list"><strong class="experience__block-name">COMPANY NAME <span class="experience__block-data"> // Feb 2011 - Jun 2014</span></strong>
-              <p class="experience_text_job">YOUR JOB HERE</p>
-              <p class="experience_text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque.</p>
+            <div class="practice__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque.</div>
+          </div>
+          <div class="practice">
+            <div class="practice__header">
+              <div class="practice__header__title">company name</div>
+              <div class="practice__header__data">// Feb 2011 - Jun 2014</div>
+              <div class="practice__header__name">your job here</div>
             </div>
-            <div class="experience__list two"><strong class="experience__block-name">COMPANY NAME <span class="experience__block-data">// Feb 2011 - Jun 2014</span></strong>
-              <p class="experience_text_job">YOUR JOB HERE</p>
-              <p class="experience_text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque. </p>
+            <div class="practice__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque.</div>
+          </div>
+          <div class="practice">
+            <div class="practice__header">
+              <div class="practice__header__title">company name</div>
+              <div class="practice__header__data">// Feb 2011 - Jun 2014</div>
+              <div class="practice__header__name">your job here</div>
             </div>
-            <div class="experience__list three"><strong class="experience__block-name">COMPANY NAME <span class="experience__block-data">// Feb 2011 - Jun 2014</span></strong>
-              <p class="experience_text_job">YOUR JOB HERE</p>
-              <p class="experience_text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque.    </p>
-            </div>
+            <div class="practice__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque.</div>
           </div>
         </div>
-        <div class="software width">
-          <div class="software">                           
-            <div class="header-right"><img class="header__ring-right" src="img/SOFTWARE_ICON.svg" alt="software icon">
-              <h2 class="header__header-right">software</h2>
-            </div>
-            <div class="software-column">
-              <div class="software-column__left">
-                <div class="software-column__photoshop">
-                  <h2 class="software-column__h2">PHOTOSHOP</h2>
-                  <div class="software-column_points">
-                    <div class="software-column_points_colored"></div>
-                  </div>
-                </div>
-                <div class="software-column__illustrator">
-                  <h2 class="software-column__h2">ILLUSTRATOR</h2>
-                  <div class="software-column_points-il">
-                    <div class="software-column_points_colored-li"></div>
-                  </div>
-                </div>
-                <div class="software-column__indesign">
-                  <h2 class="software-column__h2">INDESIGN</h2>
-                  <div class="software-column_points-in">
-                    <div class="software-column_points_colored-in"></div>
-                  </div>
-                </div>
+        <div class="header-right"><img class="header__ring-right" src="img/software.svg" alt="software icon">
+          <h2 class="header__header-right">software</h2>
+        </div>
+        <div class="software-block">
+          <div class="software-block__left">
+            <div class="software">
+              <h3 class="software__title">photoshop</h3>
+              <div class="software__points">
+                <div class="software__points-colored" style="width:91.11%;"></div>
               </div>
-              <div class="software-column__right">           
-                <div class="software-column__dreamweaver">
-                  <h2 class="software-column__h2">DREAMWEAVER</h2>
-                  <div class="software-column_points-dr">
-                    <div class="software-column_points_colored-dr"></div>
-                  </div>
-                </div>
-                <div class="software-column__after-effects">
-                  <h2 class="software-column__h2">AFTER EFFECTS</h2>
-                  <div class="software-column_points-af">
-                    <div class="software-column_points_colored-af"></div>
-                  </div>
-                </div>
-                <div class="software-column__html5css3">
-                  <h2 class="software-column__h2">HTML&CSS3</h2>
-                  <div class="software-column_points-hc">
-                    <div class="software-column_points_colored-hc"></div>
-                  </div>
-                </div>
+            </div>
+            <div class="software">
+              <h3 class="software__title">illustrator</h3>
+              <div class="software__points">
+                <div class="software__points-colored" style="width:71%;"></div>
+              </div>
+            </div>
+            <div class="software">
+              <h3 class="software__title">indesign</h3>
+              <div class="software__points">
+                <div class="software__points-colored" style="width:56.2%;"></div>
+              </div>
+            </div>
+          </div>
+          <div class="software-block__right">
+            <div class="software">
+              <h3 class="software__title">dreamweaver</h3>
+              <div class="software__points">
+                <div class="software__points-colored" style="width:83%;"></div>
+              </div>
+            </div>
+            <div class="software">
+              <h3 class="software__title">after effects</h3>
+              <div class="software__points">
+                <div class="software__points-colored" style="width:61.7%;"></div>
+              </div>
+            </div>
+            <div class="software">
+              <h3 class="software__title">html5css3</h3>
+              <div class="software__points">
+                <div class="software__points-colored" style="width:91%;"></div>
               </div>
             </div>
           </div>

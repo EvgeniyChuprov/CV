@@ -1,25 +1,4 @@
-mixin contact ()
+mixin contact (parametr)
     .contact
-        +header({header: 'contact', img: require('./img/Phone_Icon.svg'), alt: 'contact icon', left: true})
-        table.contact__table
-            tr
-                td.contact__table-headline
-                    h4(class="contact__headline-addres contact__headline-color") ADDRESS
-                td.contact__table-text  
-                    p(class="contact__text-addres contact__text-color") Main Street, City.
-            tr    
-                td.contact__table-headline 
-                    h4(class="contact__headline-mail contact__headline-color") E-MAIL
-                td.contact__table-text   
-                    p(class="contact__text-mail contact__text-color") contact@domain.com
-            tr    
-                td.contact__table-headline 
-                    h4(class="contact__headline-phone contact__headline-color") PHONE
-                td.contact__table-text  
-                    p(class="contact__text-phone  contact__text-color") 555-555-555
-            tr    
-                td.contact__table-headline 
-                    h4(class="contact__headline-web contact__headline-color") WEBSITE
-                td.contact__table-text 
-                    p(class="contact__text-web contact__text-color") www.yourweb.com  
-        
+      .contact__title= parametr.title
+      .contact__value=  parametr.value

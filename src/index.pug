@@ -5,25 +5,46 @@ include logo/logo
 include profile/profile
 include contact/contact
 include skills/skills
-include education/education
-include experience/experience
+include practice/practice
 include software/software
 
 block content
-    .content
-        .content__left
-            .name-job.width
-                +logo({name: 'name here', surname: 'surname', job: 'graphic designer'})
-            .profile.width
-                +profile('profile')
-            .contact.width
-                +contact('contact')
-            .skills.width
-                +skills('skills')
-        .content__right  
-            .education.width
-                +education('education')
-            .expwrience.width
-                +experience('experience')
-            .software.width
-                +software('software')  
+  - var text = 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque.';
+  .content
+    .content__left
+      +logo({name: 'name here', surname: 'surname', job: 'graphic designer'})
+      +profile('profile')
+      +header({header: 'contact', img: require('./img/contact.svg'), alt: 'contact icon', left: true})
+      .contact-block
+        +contact({title:'address', value:'Main Street, City'})
+        +contact({title:'e-mail', value:'contact@domain.com'})
+        +contact({title:'phone', value:'555-555-555'})
+        +contact({title:'website', value:'www.yourweb.com'})
+      +header({header: 'skills', img:require('./img/skills.svg'), alt: 'skills icon', left:true})  
+      .skills-block
+        +skills({name:'creative', value:9, maxValue:12})
+        +skills({name:'teamwork', value:11, maxValue:12})
+        +skills({name:'innovate', value:6, maxValue:12})
+        +skills({name:'communication', value:11, maxValue:12})
+    .content__right  
+      +header({header: 'education', img:require('./img/education.svg'), alt: 'education icon'})
+      .education-block
+        +practice({title:'master degree', data:'// Feb 2011 - Jun 2014', name:'university name', text: text})
+        +practice({title:'master degree', data:'// Feb 2011 - Jun 2014', name:'university name', text: text})
+        +practice({title:'master degree', data:'// Feb 2011 - Jun 2014', name:'university name', text: text})
+        +practice({title:'master degree', data:'// Feb 2011 - Jun 2014', name:'university name', text: text})
+      +header({header: 'experience', img:require('./img/experience.svg'), alt: 'experience icon'})
+      .experience-block
+        +practice({title:'company name', data:'// Feb 2011 - Jun 2014', name:'your job here', text: text})
+        +practice({title:'company name', data:'// Feb 2011 - Jun 2014', name:'your job here', text: text})
+        +practice({title:'company name', data:'// Feb 2011 - Jun 2014', name:'your job here', text: text})
+      +header({header: 'software', img: require('./img/software.svg'), alt: 'software icon'})  
+      .software-block
+        .software-block__left
+          +software({name: 'photoshop', percent:'91.11%'})
+          +software({name: 'illustrator', percent:'71%'})
+          +software({name: 'indesign', percent:'56.2%'}) 
+        .software-block__right
+          +software({name: 'dreamweaver', percent:'83%'})
+          +software({name: 'after effects', percent:'61.7%'})
+          +software({name: 'html5css3', percent:'91%'})    

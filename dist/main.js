@@ -86,6 +86,116 @@
 /************************************************************************/
 /******/ ({
 
+/***/ "./node_modules/file-loader/dist/cjs.js?name=/favicons/[name].[ext]!./src/favicons/android-chrome-144x144.png":
+/*!********************************************************************************************************************!*\
+  !*** ./node_modules/file-loader/dist/cjs.js?name=/favicons/[name].[ext]!./src/favicons/android-chrome-144x144.png ***!
+  \********************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"/favicons/android-chrome-144x144.png\";\n\n//# sourceURL=webpack:///./src/favicons/android-chrome-144x144.png?./node_modules/file-loader/dist/cjs.js?name=/favicons/%5Bname%5D.%5Bext%5D");
+
+/***/ }),
+
+/***/ "./node_modules/file-loader/dist/cjs.js?name=/favicons/[name].[ext]!./src/favicons/apple-touch-icon.png":
+/*!**************************************************************************************************************!*\
+  !*** ./node_modules/file-loader/dist/cjs.js?name=/favicons/[name].[ext]!./src/favicons/apple-touch-icon.png ***!
+  \**************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"/favicons/apple-touch-icon.png\";\n\n//# sourceURL=webpack:///./src/favicons/apple-touch-icon.png?./node_modules/file-loader/dist/cjs.js?name=/favicons/%5Bname%5D.%5Bext%5D");
+
+/***/ }),
+
+/***/ "./node_modules/file-loader/dist/cjs.js?name=/favicons/[name].[ext]!./src/favicons/browserconfig.xml":
+/*!***********************************************************************************************************!*\
+  !*** ./node_modules/file-loader/dist/cjs.js?name=/favicons/[name].[ext]!./src/favicons/browserconfig.xml ***!
+  \***********************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"/favicons/browserconfig.xml\";\n\n//# sourceURL=webpack:///./src/favicons/browserconfig.xml?./node_modules/file-loader/dist/cjs.js?name=/favicons/%5Bname%5D.%5Bext%5D");
+
+/***/ }),
+
+/***/ "./node_modules/file-loader/dist/cjs.js?name=/favicons/[name].[ext]!./src/favicons/favicon-16x16.png":
+/*!***********************************************************************************************************!*\
+  !*** ./node_modules/file-loader/dist/cjs.js?name=/favicons/[name].[ext]!./src/favicons/favicon-16x16.png ***!
+  \***********************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"/favicons/favicon-16x16.png\";\n\n//# sourceURL=webpack:///./src/favicons/favicon-16x16.png?./node_modules/file-loader/dist/cjs.js?name=/favicons/%5Bname%5D.%5Bext%5D");
+
+/***/ }),
+
+/***/ "./node_modules/file-loader/dist/cjs.js?name=/favicons/[name].[ext]!./src/favicons/favicon-32x32.png":
+/*!***********************************************************************************************************!*\
+  !*** ./node_modules/file-loader/dist/cjs.js?name=/favicons/[name].[ext]!./src/favicons/favicon-32x32.png ***!
+  \***********************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"/favicons/favicon-32x32.png\";\n\n//# sourceURL=webpack:///./src/favicons/favicon-32x32.png?./node_modules/file-loader/dist/cjs.js?name=/favicons/%5Bname%5D.%5Bext%5D");
+
+/***/ }),
+
+/***/ "./node_modules/file-loader/dist/cjs.js?name=/favicons/[name].[ext]!./src/favicons/favicon.ico":
+/*!*****************************************************************************************************!*\
+  !*** ./node_modules/file-loader/dist/cjs.js?name=/favicons/[name].[ext]!./src/favicons/favicon.ico ***!
+  \*****************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"/favicons/favicon.ico\";\n\n//# sourceURL=webpack:///./src/favicons/favicon.ico?./node_modules/file-loader/dist/cjs.js?name=/favicons/%5Bname%5D.%5Bext%5D");
+
+/***/ }),
+
+/***/ "./node_modules/file-loader/dist/cjs.js?name=/favicons/[name].[ext]!./src/favicons/mstile-150x150.png":
+/*!************************************************************************************************************!*\
+  !*** ./node_modules/file-loader/dist/cjs.js?name=/favicons/[name].[ext]!./src/favicons/mstile-150x150.png ***!
+  \************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"/favicons/mstile-150x150.png\";\n\n//# sourceURL=webpack:///./src/favicons/mstile-150x150.png?./node_modules/file-loader/dist/cjs.js?name=/favicons/%5Bname%5D.%5Bext%5D");
+
+/***/ }),
+
+/***/ "./node_modules/file-loader/dist/cjs.js?name=/favicons/[name].[ext]!./src/favicons/safari-pinned-tab.svg":
+/*!***************************************************************************************************************!*\
+  !*** ./node_modules/file-loader/dist/cjs.js?name=/favicons/[name].[ext]!./src/favicons/safari-pinned-tab.svg ***!
+  \***************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"/favicons/safari-pinned-tab.svg\";\n\n//# sourceURL=webpack:///./src/favicons/safari-pinned-tab.svg?./node_modules/file-loader/dist/cjs.js?name=/favicons/%5Bname%5D.%5Bext%5D");
+
+/***/ }),
+
+/***/ "./src/favicons sync recursive ./!./!./node_modules/file-loader/dist/cjs.js?name=/favicons/[name].[ext]!./ \\.(svg|png|ico|xml|json)$":
+/*!*************************************************************************************************************************!*\
+  !*** ./src/favicons sync !./node_modules/file-loader/dist/cjs.js?name=/favicons/[name].[ext] \.(svg|png|ico|xml|json)$ ***!
+  \*************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("var map = {\n\t\"./android-chrome-144x144.png\": \"./node_modules/file-loader/dist/cjs.js?name=/favicons/[name].[ext]!./src/favicons/android-chrome-144x144.png\",\n\t\"./apple-touch-icon.png\": \"./node_modules/file-loader/dist/cjs.js?name=/favicons/[name].[ext]!./src/favicons/apple-touch-icon.png\",\n\t\"./browserconfig.xml\": \"./node_modules/file-loader/dist/cjs.js?name=/favicons/[name].[ext]!./src/favicons/browserconfig.xml\",\n\t\"./favicon-16x16.png\": \"./node_modules/file-loader/dist/cjs.js?name=/favicons/[name].[ext]!./src/favicons/favicon-16x16.png\",\n\t\"./favicon-32x32.png\": \"./node_modules/file-loader/dist/cjs.js?name=/favicons/[name].[ext]!./src/favicons/favicon-32x32.png\",\n\t\"./favicon.ico\": \"./node_modules/file-loader/dist/cjs.js?name=/favicons/[name].[ext]!./src/favicons/favicon.ico\",\n\t\"./mstile-150x150.png\": \"./node_modules/file-loader/dist/cjs.js?name=/favicons/[name].[ext]!./src/favicons/mstile-150x150.png\",\n\t\"./safari-pinned-tab.svg\": \"./node_modules/file-loader/dist/cjs.js?name=/favicons/[name].[ext]!./src/favicons/safari-pinned-tab.svg\"\n};\n\n\nfunction webpackContext(req) {\n\tvar id = webpackContextResolve(req);\n\treturn __webpack_require__(id);\n}\nfunction webpackContextResolve(req) {\n\tif(!__webpack_require__.o(map, req)) {\n\t\tvar e = new Error(\"Cannot find module '\" + req + \"'\");\n\t\te.code = 'MODULE_NOT_FOUND';\n\t\tthrow e;\n\t}\n\treturn map[req];\n}\nwebpackContext.keys = function webpackContextKeys() {\n\treturn Object.keys(map);\n};\nwebpackContext.resolve = webpackContextResolve;\nmodule.exports = webpackContext;\nwebpackContext.id = \"./src/favicons sync recursive ./!./!./node_modules/file-loader/dist/cjs.js?name=/favicons/[name].[ext]!./ \\\\.(svg|png|ico|xml|json)$\";\n\n//# sourceURL=webpack:///./node_modules/file-loader/dist/cjs.js?./src/favicons_sync_");
+
+/***/ }),
+
+/***/ "./src/favicons/favicons.js":
+/*!**********************************!*\
+  !*** ./src/favicons/favicons.js ***!
+  \**********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("const faviconsContext = __webpack_require__(\"./src/favicons sync recursive ./!./!./node_modules/file-loader/dist/cjs.js?name=/favicons/[name].[ext]!./ \\\\.(svg|png|ico|xml|json)$\");\r\nfaviconsContext.keys().forEach(faviconsContext);\n\n//# sourceURL=webpack:///./src/favicons/favicons.js?");
+
+/***/ }),
+
 /***/ "./src/index.js":
 /*!**********************!*\
   !*** ./src/index.js ***!
@@ -94,7 +204,7 @@
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.scss */ \"./src/style.scss\");\n/* harmony import */ var _style_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_style_scss__WEBPACK_IMPORTED_MODULE_0__);\n\r\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvaW5kZXguanMuanMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9zcmMvaW5kZXguanM/YjYzNSJdLCJzb3VyY2VzQ29udGVudCI6WyJcclxuaW1wb3J0IFwiLi9zdHlsZS5zY3NzXCI7Il0sIm1hcHBpbmdzIjoiQUFBQTtBQUFBO0FBQUE7QUFBQTsiLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./src/index.js\n");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.scss */ \"./src/style.scss\");\n/* harmony import */ var _style_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_style_scss__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _favicons_favicons__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./favicons/favicons */ \"./src/favicons/favicons.js\");\n/* harmony import */ var _favicons_favicons__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_favicons_favicons__WEBPACK_IMPORTED_MODULE_1__);\n\r\n\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ }),
 
@@ -105,7 +215,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _sty
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("// extracted by mini-css-extract-plugin//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvc3R5bGUuc2Nzcy5qcyIsInNvdXJjZXMiOlsid2VicGFjazovLy8uL3NyYy9zdHlsZS5zY3NzPzY1Y2QiXSwic291cmNlc0NvbnRlbnQiOlsiLy8gZXh0cmFjdGVkIGJ5IG1pbmktY3NzLWV4dHJhY3QtcGx1Z2luIl0sIm1hcHBpbmdzIjoiQUFBQSIsInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./src/style.scss\n");
+eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./src/style.scss?");
 
 /***/ })
 

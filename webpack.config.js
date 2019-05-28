@@ -42,32 +42,45 @@ module.exports = {
                         options: {
                             mozjpeg: {
                                 progressive: true,
-                                quality: 70
+                                quality: 75
                             }
                         }
                     }
                 ]
             },
             {
-                        test: /\.pug$/,
-                        loader: 'pug-loader',
-                        options: {
-                            pretty: true
-                        }
+              test: /\.pug$/,
+              loader: 'pug-loader',
+              options: {
+                pretty: true
+              }
             },
-             {
-                     test: /\.(woff|woff2|eot|ttf|otf)$/,
-                     use: [
-                        {
-                            loader: 'file-loader',
-                            options:{
-                               name: 'fonts/[name].[ext]',
-                               outputPath:'./',
-                               useRelativePath: true 
-                            }
+            {
+                test: /\.(ico)$/,
+                use: [
+                    {
+                        loader: 'file-loader',
+                        options:{
+                           name: '/favicons/[name].[ext]',
+                           useRelativePath: true 
                         }
-                    ]
-                      }
+                    }
+                ]
+            
+              },
+             {
+                test: /\.(woff|woff2|eot|ttf|otf)$/,
+                use: [
+                    {
+                        loader: 'file-loader',
+                        options:{
+                           name: 'fonts/[name].[ext]',
+                           outputPath:'./',
+                           useRelativePath: true 
+                        }
+                    }
+                ]
+            }
         ]
     },
     plugins:[

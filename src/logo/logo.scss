@@ -1,49 +1,33 @@
-.logo{
-    padding-top:1.1vw; 
-    padding-bottom: 6.9%;
+.logo {
+  padding: 1.35rem 0 3.1rem;
+  text-transform: uppercase;
+  font-family: "MyriadProBold";
+  &__ring {
+    @include ring(19.5rem, 1.4rem, 0.09rem, $blue-color, $white-color);
+    margin-left: 25.2%;
+  }
+  &__name {
+    font-family: "MyriadProLight";
+    font-size: 5.25rem;
+    padding: 2.95rem 0 0 1.4rem;
+    letter-spacing: -0.07rem;
+  }
+  &__surname {
+    font-size: 6rem;
+    line-height:5.01rem;
+    letter-spacing: -0.01rem;
+    padding-left: 3.1%;
+  }
+  &__job {
+    font-size: 2.4rem;
+    letter-spacing: -0.045rem;
+    padding: 1.3rem 0 0 1.3rem;
+  }
 }
-.logo__ring{
-    @include ring(16.2vw, 1.2vw, 0.08vw, #385a94, #ffffff);
-    margin-left:8.8vw;
-}
-.logo__name{
-    text-transform: uppercase;
-    font-family: 'MyriadProLight';
-    letter-spacing:-.11vw;
-    font-size: 4.5vw;
-    padding-top: 2.5vw;
-    padding-left: 1vw;
-}
-.logo__surname{
-    text-transform: uppercase;
-    font-family: 'MyriadProBold';
-    font-size: 5vw;
-    margin-top: -.55vw;
-    padding-left: 1.2vw; 
-}
-.logo__job{
-    text-transform: uppercase;
-    font-family: 'MyriadProBold';
-    font-size: 2vw;
-    letter-spacing:-.04vw;
-    padding-top: .7vw;
-    padding-left: 1.2vw;
-}
-@media only screen and (max-width: 600px){
-    .logo__ring{
-        margin: auto;
+@media only screen and (max-width:1910px) {
+  .logo {
+    &__ring {
+      margin: auto;
     }
-    .logo__name{
-        letter-spacing:0vw;
-        font-size: 6vw;
-        padding-top: 3vw;
-    }
-    .logo__surname{
-        font-size: 8vw;
-        margin-top: 0vw;
-    }
-    .logo__job{
-        font-size: 3.5vw;
-        letter-spacing:0vw;
-    }
+  }
 }
