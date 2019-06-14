@@ -3,4 +3,7 @@
 2. npm run start запуск webpack-dev-server
 3. npm run webpack создаст готовые файлы в папке dist
 
+Клонирование репозитория:
+git clone https://github.com/EvgeniyChuprov/CV.git
+
 Github Pages: https://evgeniychuprov.github.io/CV/dist/
