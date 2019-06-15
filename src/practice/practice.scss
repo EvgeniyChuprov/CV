@@ -1,7 +1,7 @@
 .practice{
   padding: 1rem 0 .4rem 5.2rem;
   text-align: left;
-  font-family: "MyriadPro";
+  font-family: "myriadpro";
   position: relative;
   &::before {
     content: "";
@@ -16,7 +16,7 @@
   &__header{
     &__title{
       color:$blue-color;
-      font-family: "MyriadProBold";
+      font-family: "myriadprobold";
       font-size: 2.5rem;
       text-transform: uppercase;
       float: left;
@@ -29,7 +29,7 @@
     }
     &__name{
       text-transform: uppercase;
-      font-family: "MyriadPro";
+      font-family: "myriadpro";
       font-size: 2.5rem;
       margin-top: .75rem;
       letter-spacing: -0.01rem;
