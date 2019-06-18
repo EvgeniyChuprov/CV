@@ -2,7 +2,7 @@ mixin skills (parametr)
   .skills 
     h3.skills__name= parametr.name
     ul.skills__line
-      - for (var i=0; i<parametr.maxValue; i++) 
+      - for (let i=0; i<parametr.maxValue; i++) 
         if i < parametr.value
           li
           div(class="ring" style={background: '#3d6cb0'})  

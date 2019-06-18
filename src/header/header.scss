@@ -1,20 +1,19 @@
-.header-left {
+.header {
   display: flex;
   padding-right: 2.9%;
-  .header__ring-left {
+  .header__ring {
     width: 7rem;
     height: 7rem;
     margin-left: 2.2%;
   }
-  .header__header-left {
+  .header__text {
     text-transform: uppercase;
     font-family: "myriadprobold";
     color: $blue-color;
     letter-spacing: 0;
     font-size: 4rem;
-    margin-right: 1.8%;
-    margin-left: 2.7%;
-    padding-top: 3.5%;
+    margin:0 1.8% 0 2.7%;
+    padding-top: 2.6%;
   }
   &:after {
     content: "";
@@ -25,44 +24,10 @@
     flex: 1;
   }
 }
-.header-right {
-  display: flex;
-  padding-left: 0.1%;
-  padding-right: 1%;
-  .header__ring-right {
-    width: 7.2rem;
-    height: 7rem;
-  }
-  .header__header-right {
-    text-transform: uppercase;
-    font-family: "myriadprobold";
-    color: $blue-color;
-    letter-spacing: 0;
-    font-size: 4rem;
-    margin-right: 1.5%;
-    margin-left: 3%;
-    padding-top: 2.5%;
-  }
-  &:after {
-    content: "";
-    display: inline-block;
-    height: 0.45rem;
-    margin-top: 5.2%;
-    background: $blue-color;
-    flex: 1;
-  }
-}
+
 @media only screen and (max-width: 600px) {
-  .header-left {
-    .header__header-left {
-      padding-top:1.5%;
-    }
-    &:after {
-      margin-top: 3%;
-    }
-  }
-  .header-right {
-    .header__header-right {
+  .header {
+    .header__text {
       padding-top:1.5%;
     }
     &:after {
