@@ -1,7 +1,8 @@
-mixin practice (parametr)
+mixin practice (options)
+  -let {title="title", data="data", name="name", text='text'} = options;
   .practice
     .practice__header
-      .practice__header__title= parametr.title
-      .practice__header__data=  parametr.data
-      .practice__header__name=  parametr.name
-    .practice__text= parametr.text
+      .practice__title= title
+      .practice__data=  data
+      .practice__name=  name
+    .practice__text= text

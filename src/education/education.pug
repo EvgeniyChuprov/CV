@@ -1,0 +1,8 @@
+include ../header/header
+include ../practice/practice
+
+mixin education (education)
+  +header('education')
+  .education-block
+    each item in education
+      +practice(item)

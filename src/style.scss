@@ -16,6 +16,8 @@ $white-color: #ffffff;
 @import "profile/profile.scss";
 @import "contact/contact.scss";
 @import "skills/skills.scss";
+@import "education/education.scss";
+@import "experience/experience.scss";
 @import "practice/practice";
 @import "software/software";
 @import "header/header";
@@ -41,18 +43,9 @@ html {
   &__left {
     width: 38.2%;
     margin-right: 5.5%;
-    .skills-block{
-      padding: 3.5% 11% 7.6% 11%;
-    }
   }
   &__right {
     width: 56.3%;
-    .education-block{
-      padding: 2.9% 0 7.6% 0;
-    }
-    .experience-block{
-      padding: 5.2% 0 7.8% 0;
-    }
     .software-block{
       padding-top: 1.27rem;
       display: flex;

@@ -1,11 +1,16 @@
-mixin skills (parametr)
-  .skills 
-    h3.skills__name= parametr.name
-    ul.skills__line
-      - for (let i=0; i<parametr.maxValue; i++) 
-        if i < parametr.value
-          li
-          div(class="ring" style={background: '#3d6cb0'})  
-        else
-          li
-          div(class="ring" style={background: '#e6e6e6'})
+include ../header/header
+
+mixin skills (skills)
+  +header('skills')  
+  .skills
+      each item in skills
+        .skills__block
+          h3.skills__name= item.name
+          ul.skills__line
+            - for(let i = 0; i < item.maxValue; i += 1) {
+              -if(i < item.value){
+                li.ring
+              -}else{
+                li.ring.ring-gray
+              -}
+            -}

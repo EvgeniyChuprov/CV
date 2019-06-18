@@ -2,7 +2,8 @@ include logo/logo
 include profile/profile
 include contact/contact
 include skills/skills
-include practice/practice
+include education/education
+include experience/experience
 include software/software
 include header/header
 
@@ -25,25 +26,20 @@ html
       .content__left
         +logo({name: 'name here', surname: 'surname', job: 'graphic designer'})
         +profile('profile')
-        +contact({address:'Main Street, City', email:'contact@domain.com', phone:'555-555-555', website:'www.yourweb.com'})
-        +header('skills')  
-        .skills-block
-          +skills({name:'creative', value:9, maxValue:12})
-          +skills({name:'teamwork', value:11, maxValue:12})
-          +skills({name:'innovate', value:6, maxValue:12})
-          +skills({name:'communication', value:11, maxValue:12})
+        +contact({address:'Main Street, City', email:'contact@domain.com',
+                 phone:'555-555-555', website:'www.yourweb.com'})
+        +skills([{name:'creative', value:9, maxValue:12},
+                {name:'teamwork', value:11, maxValue:12},
+                {name:'innovate', value:6, maxValue:12},
+                {name:'communication', value:11, maxValue:12}])
       .content__right  
-        +header('education')
-        .education-block
-          +practice({title:'master degree', data:'// Feb 2011 - Jun 2014', name:'university name', text: text})
-          +practice({title:'master degree', data:'// Feb 2011 - Jun 2014', name:'university name', text: text})
-          +practice({title:'master degree', data:'// Feb 2011 - Jun 2014', name:'university name', text: text})
-          +practice({title:'master degree', data:'// Feb 2011 - Jun 2014', name:'university name', text: text})
-        +header('experience')
-        .experience-block
-          +practice({title:'company name', data:'// Feb 2011 - Jun 2014', name:'your job here', text: text})
-          +practice({title:'company name', data:'// Feb 2011 - Jun 2014', name:'your job here', text: text})
-          +practice({title:'company name', data:'// Feb 2011 - Jun 2014', name:'your job here', text: text})
+        +education([{title:'master degree', data:'// Feb 2011 - Jun 2014', name:'university name', text: text},
+                    {title:'master degree', data:'// Feb 2011 - Jun 2014', name:'university name', text: text},
+                    {title:'master degree', data:'// Feb 2011 - Jun 2014', name:'university name', text: text},
+                    {title:'master degree', data:'// Feb 2011 - Jun 2014', name:'university name', text: text}])
+        +experience([{title:'company name', data:'// Feb 2011 - Jun 2014', name:'your job here', text: text},
+                    {title:'company name', data:'// Feb 2011 - Jun 2014', name:'your job here', text: text},
+                    {title:'company name', data:'// Feb 2011 - Jun 2014', name:'your job here', text: text}])
         +header('software')  
         .software-block
           .software-block__left

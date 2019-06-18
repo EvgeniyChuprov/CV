@@ -1,0 +1,8 @@
+include ../header/header
+include ../practice/practice
+
+mixin experience (experience)
+  +header('experience')
+  .experience-block
+    each item in experience
+      +practice(item)
