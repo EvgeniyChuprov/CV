@@ -1,0 +1,42 @@
+include ../logo/logo
+include ../profile/profile
+include ../contact/contact
+include ../skills/skills
+include ../education/education
+include ../experience/experience
+include ../software/software
+
+mixin content ( )
+  - const text = 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque.';
+  - const profileText = 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu ';
+  - const profileStrongText = 'pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum.';
+  .content
+    .content__left
+      +logo("name here", "surname", "graphic designer")
+
+      +profile(profileText, profileStrongText)
+
+      +contact({address:"Main Street, City", email:"contact@domain.com",
+        phone:"555-555-555", website:"www.yourweb.com"})
+
+      +skills([{name:"creative", value:9, maxValue:12},
+        {name:"teamwork", value:11, maxValue:12},
+        {name:"innovate", value:6, maxValue:12},
+        {name:"communication", value:11, maxValue:12}])
+
+    .content__right  
+      +education([{title:"master degree", data:"// Feb 2011 - Jun 2014", name:"university name", text: text},
+        {title:"master degree", data:"// Feb 2011 - Jun 2014", name:"university name", text: text},
+        {title:"master degree", data:"// Feb 2011 - Jun 2014", name:"university name", text: text},
+        {title:"master degree", data:"// Feb 2011 - Jun 2014", name:"university name", text: text}])
+
+      +experience([{title:"company name", data:"// Feb 2011 - Jun 2014", name:"your job here", text: text},
+        {title:"company name", data:"// Feb 2011 - Jun 2014", name:"your job here", text: text},
+        {title:"company name", data:"// Feb 2011 - Jun 2014", name:"your job here", text: text}])
+
+      +software([{name: "photoshop", percent:"91.11%"},
+        {name: "dreamweaver", percent:"83%"},
+        {name: "illustrator", percent:"71%"},
+        {name: "after effects", percent:"61.7%"},
+        {name: "indesign", percent:"56.2%"},
+        {name: "html5css3", percent:"91%"}])    

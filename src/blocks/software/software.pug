@@ -1,0 +1,11 @@
+include ../header/header
+
+mixin software (software)
+  +header("software") 
+
+  .software
+    each item in software
+      .software__block
+        h3.software__title= item.name
+        .software__points
+          .color(style={width:""+item.percent})

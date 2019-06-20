@@ -1,0 +1,21 @@
+include ../header/header
+
+mixin contact ({address, email, phone, website})
+  +header("contact")
+
+  .contact
+    .contact__block
+      .contact__title address
+      .contact__value=  address
+
+    .contact__block
+      .contact__title e-mail
+      a.contact__value(href=`mailto: ${email}`)=  email
+
+    .contact__block
+      .contact__title phone
+      a.contact__value(href=`tel: ${phone}`)=  phone
+
+    .contact__block
+      .contact__title website
+      a.contact__value(href=`http://${website}/`, target="_blank", rel="noopener noreferrer")=  website

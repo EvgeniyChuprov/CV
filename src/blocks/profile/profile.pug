@@ -1,0 +1,8 @@
+include ../header/header
+
+mixin profile(text, strongText)
+  .profile
+    +header("profile")
+
+    p.profile__text= text
+      strong.profile__text-strong= strongText

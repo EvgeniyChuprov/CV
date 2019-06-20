@@ -1,52 +1,19 @@
-include logo/logo
-include profile/profile
-include contact/contact
-include skills/skills
-include education/education
-include experience/experience
-include software/software
-include header/header
+include blocks/content/content
 
 doctype html
 html
   head
-  meta(charset = 'utf-8')
-  meta(name='viewport', content="initial-scale=1.0, width=device-width, shrink-to-fit=no")
-  link( rel="apple-touch-icon" sizes="180x180" href=require('./favicons/apple-touch-icon.png'))
-  link( rel="icon" type="image/png" sizes="32x32" href=require('./favicons/favicon-32x32.png'))
-  link( rel="icon" type="image/png" sizes="16x16" href=require('./favicons/favicon-16x16.png'))
-  link( rel="manifest" href="favicons/site.webmanifest")
-  link( rel="mask-icon" href=require('./favicons/safari-pinned-tab.svg') color="#5bbad5")
-  meta( name="msapplication-TileColor" content="#2d89ef")
-  meta( name="theme-color" content="#ffffff")
-  title CV
+    meta(charset = 'utf-8')
+    meta(name='viewport', content="initial-scale=1.0, width=device-width, shrink-to-fit=no")
+    meta(name = "description", content = "Макет резюме")
+    link( rel="apple-touch-icon" sizes="180x180" href=require('./favicons/apple-touch-icon.png'))
+    link( rel="icon" type="image/png" sizes="32x32" href=require('./favicons/favicon-32x32.png'))
+    link( rel="icon" type="image/png" sizes="16x16" href=require('./favicons/favicon-16x16.png'))
+    link( rel="manifest" href="favicons/site.webmanifest")
+    link( rel="mask-icon" href=require('./favicons/safari-pinned-tab.svg') color="#5bbad5")
+    meta( name="msapplication-TileColor" content="#2d89ef")
+    meta( name="theme-color" content="#ffffff")
+    title CV
   body
-    - const text = 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque.';
-    .content
-      .content__left
-        +logo({name: 'name here', surname: 'surname', job: 'graphic designer'})
-        +profile('profile')
-        +contact({address:'Main Street, City', email:'contact@domain.com',
-                 phone:'555-555-555', website:'www.yourweb.com'})
-        +skills([{name:'creative', value:9, maxValue:12},
-                {name:'teamwork', value:11, maxValue:12},
-                {name:'innovate', value:6, maxValue:12},
-                {name:'communication', value:11, maxValue:12}])
-      .content__right  
-        +education([{title:'master degree', data:'// Feb 2011 - Jun 2014', name:'university name', text: text},
-                    {title:'master degree', data:'// Feb 2011 - Jun 2014', name:'university name', text: text},
-                    {title:'master degree', data:'// Feb 2011 - Jun 2014', name:'university name', text: text},
-                    {title:'master degree', data:'// Feb 2011 - Jun 2014', name:'university name', text: text}])
-        +experience([{title:'company name', data:'// Feb 2011 - Jun 2014', name:'your job here', text: text},
-                    {title:'company name', data:'// Feb 2011 - Jun 2014', name:'your job here', text: text},
-                    {title:'company name', data:'// Feb 2011 - Jun 2014', name:'your job here', text: text}])
-        +header('software')  
-        .software-block
-          .software-block__left
-            +software({name: 'photoshop', percent:'91.11%'})
-            +software({name: 'illustrator', percent:'71%'})
-            +software({name: 'indesign', percent:'56.2%'}) 
-          .software-block__right
-            +software({name: 'dreamweaver', percent:'83%'})
-            +software({name: 'after effects', percent:'61.7%'})
-            +software({name: 'html5css3', percent:'91%'})    
+    +content()
+    

@@ -1,20 +1,23 @@
 .header {
   display: flex;
   padding-right: 2.9%;
-  .header__ring {
+
+  &__ring {
     width: 7rem;
     height: 7rem;
     margin-left: 2.2%;
   }
-  .header__text {
+
+  &__text {
     text-transform: uppercase;
     font-family: "myriadprobold";
     color: $blue-color;
     letter-spacing: 0;
     font-size: 4rem;
-    margin:0 1.8% 0 2.7%;
+    margin: 0 1.8% 0 2.7%;
     padding-top: 2.6%;
   }
+
   &:after {
     content: "";
     display: inline-block;
@@ -28,8 +31,9 @@
 @media only screen and (max-width: 600px) {
   .header {
     .header__text {
-      padding-top:1.5%;
+      padding-top: 1.5%;
     }
+
     &:after {
       margin-top: 3%;
     }

@@ -2,7 +2,8 @@ include ../header/header
 include ../practice/practice
 
 mixin education (education)
-  +header('education')
-  .education-block
+  +header("education")
+
+  .education
     each item in education
       +practice(item)

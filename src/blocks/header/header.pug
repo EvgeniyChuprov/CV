@@ -1,0 +1,4 @@
+mixin header(value)
+  .header
+    img.header__ring(src= require(`./blocks/header/img/${value}.svg`) alt= `${value} icon`)
+    h2.header__text= value

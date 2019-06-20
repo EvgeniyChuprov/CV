@@ -1,0 +1,82 @@
+.practice {
+  padding: 1.6% 0 0.4rem 5.2rem;
+  text-align: left;
+  font-family: "myriadpro";
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    width: 1.53vw;
+    height: 1.56vw;
+    top: 10.5%;
+    left: 2.2%;
+    background-color: black;
+    border-radius: 50%;
+  }
+
+  &__title {
+    color: $blue-color;
+    font-family: "myriadprobold";
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    float: left;
+    width: 35.4%;
+  }
+
+  &__data {
+    color: black;
+    font-size: 2.46rem;
+    letter-spacing: 0.01rem;
+  }
+
+  &__name {
+    text-transform: uppercase;
+    font-family: "myriadpro";
+    font-size: 2.5rem;
+    margin-top: 0.3rem;
+    letter-spacing: -0.01rem;
+  }
+
+  &__text {
+    padding-top: 0.6rem;
+    padding-left: 0.5%;
+    font-size: 1.5rem;
+    letter-spacing: -0.003rem;
+    line-height: 1.8rem;
+  }
+}
+@media screen and (max-width: 1805px) {
+  .practice {
+    padding: 1rem 0 0.4rem 4rem;
+
+    &__title {
+      font-size: 2rem;
+    }
+
+    &__data {
+      font-size: 2rem;
+    }
+
+    &__name {
+      font-size: 2rem;
+    }
+  }
+}
+@media screen and (max-width: 1450px) {
+  .practice {
+    padding: 1rem 0 0.4rem 4rem;
+
+    &__title {
+      font-size: 1.5rem;
+    }
+
+    &__data {
+      font-size: 1.5rem;
+    }
+
+    &__name {
+      font-size: 1.5rem;
+    }
+  }
+}

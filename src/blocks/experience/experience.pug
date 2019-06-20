@@ -2,7 +2,8 @@ include ../header/header
 include ../practice/practice
 
 mixin experience (experience)
-  +header('experience')
-  .experience-block
+  +header("experience")
+
+  .experience
     each item in experience
       +practice(item)

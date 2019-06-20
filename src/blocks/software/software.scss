@@ -1,0 +1,35 @@
+$gray-color: #e6e6e6;
+.software {
+  padding-top: 1.27rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  &__block {
+    padding: 1.2rem 0 1.2rem 0.8rem;
+    text-transform: uppercase;
+    font-family: "myriadpro";
+    letter-spacing: 0.01rem;
+    font-weight: 100;
+    font-size: 2.1rem;
+    text-align: left;
+    width: 43.5%;
+    margin-right: 0.7%;
+  }
+
+  &__title {
+    margin: 0;
+    padding: 0 0 1.5rem 0;
+  }
+
+  &__points {
+    height: 1.75vw;
+    background-color: $gray-color;
+    width: 100%;
+
+    .color {
+      background-color: $blue-color;
+      height: 1.75vw;
+    }
+  }
+}
