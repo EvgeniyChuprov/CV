@@ -1,7 +1,6 @@
 .practice {
   padding: 1.6% 0 0.4rem 5.2rem;
   text-align: left;
-  font-family: "myriadpro";
   position: relative;
 
   &::before {
@@ -17,7 +16,7 @@
 
   &__title {
     color: $blue-color;
-    font-family: "myriadprobold";
+    font-family: "myriadprobold", "Arial", Sans-Serif;
     font-size: 2.5rem;
     text-transform: uppercase;
     float: left;
@@ -25,7 +24,6 @@
   }
 
   &__data {
-    color: black;
     font-size: 2.46rem;
     letter-spacing: 0.01rem;
   }

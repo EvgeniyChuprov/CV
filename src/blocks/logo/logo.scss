@@ -1,7 +1,7 @@
 .logo {
   padding: 1.35rem 0 3.1rem;
   text-transform: uppercase;
-  font-family: "myriadprobold";
+  font-family: "myriadprobold", "Arial", Sans-Serif;
 
   &__ring {
     @include ring(19.5rem, 1.4rem, 0.09rem, $blue-color, $white-color);
@@ -9,7 +9,7 @@
   }
 
   &__name {
-    font-family: "myriadprolight";
+    font-family: "myriadprolight", "Arial", Sans-Serif;
     font-size: 5.25rem;
     padding: 2.95rem 0 0 1.4rem;
     letter-spacing: -0.07rem;

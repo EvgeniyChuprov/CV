@@ -8,7 +8,7 @@
 
   &__title {
     color: $blue-color;
-    font-family: "myriadprobold";
+    font-family: "myriadprobold", "Arial", Sans-Serif;
     font-size: 2rem;
     text-transform: uppercase;
     float: left;
@@ -17,7 +17,6 @@
 
   &__value {
     color: black;
-    font-family: "myriadpro";
     font-size: 2rem;
     text-decoration: none;
   }
