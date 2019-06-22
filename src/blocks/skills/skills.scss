@@ -1,11 +1,11 @@
-.skills{
+.skills {
   padding: 3.5% 11% 7.6% 11%;
 
-  &__block{
+  &__block {
     padding: 2% 0 3.5% 0;
   }
 
-  &__name{
+  &__name {
     text-transform: uppercase;
     text-align: center;
     font-size: 2.5rem;
@@ -13,24 +13,27 @@
     letter-spacing: 0;
   }
 
-  &__line{
+  &__line {
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
     padding: 2.7% 3.4% 0 0.4%;
     overflow: hidden;
     list-style: none;
+  }
 
-    .ring{
-      background:$blue-color;
-      border-radius: 50%;
-      width: 1.7rem;
-      height: 1.7rem;
-      position: relative;
-      
-      &-gray{
-        background:#e6e6e6;
-      }
+  &__level {
+    border-radius: 50%;
+    width: 1.7rem;
+    height: 1.7rem;
+    position: relative;
+  
+    &_developed {
+      background: $blue-color;
+    }
+
+    &_undeveloped {
+      background: #e6e6e6;
     }
   }
 }

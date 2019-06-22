@@ -1,8 +1,9 @@
 include ../header/header
 
-mixin profile(text, strongText)
+mixin profile(options)
+  -let {text="text", strongText="strongText"} = options
   .profile
     +header("profile")
 
     p.profile__text= text
-      strong.profile__text-strong= strongText
+      span.profile__text-strong= strongText

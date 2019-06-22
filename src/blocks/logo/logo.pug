@@ -1,4 +1,5 @@
-mixin logo(name, surname, job)
+mixin logo(options)
+  -let {name="name", surname="surname", job="job"} = options
   .logo
     .logo__ring
     .logo__name= name

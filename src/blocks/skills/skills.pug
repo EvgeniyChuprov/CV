@@ -10,8 +10,8 @@ mixin skills (skills)
         ul.skills__line
           - for (let i = 0; i < item.maxValue; i += 1) {
             -if (i < item.value){
-              li.ring
+              li.skills__level.skills__level_developed
             -} else {
-              li.ring.ring-gray
+              li.skills__level.skills__level_undeveloped
             -};
           -};

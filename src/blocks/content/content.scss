@@ -35,13 +35,19 @@ html {
   max-width: 100%;
   min-width: 320px;
 
-  &__left {
-    width: 38.2%;
-    margin-right: 5.5%;
+  &__column{
+
+    &_position_left{
+      width: 38.2%;
+      margin-right: 5.5%;
+    }
   }
 
-  &__right {
-    width: 56.3%;
+  &__column{
+
+    &_position_right{
+      width: 56.3%;
+    }
   }
 }
 
@@ -106,13 +112,19 @@ html {
   .content {
     display: inline;
 
-    &__left {
-      width: 100%;
-    }
+    &__column{
 
-    &__right {
-      padding-left: 2%;
-      width: 96%;
+      &_position_left{
+        width: 100%;
+      }
+    }
+  
+    &__column{
+      
+      &_position_right{
+        padding-left: 2%;
+        width: 96%;
+      }
     }
   }
 }

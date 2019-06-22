@@ -27,7 +27,7 @@ $gray-color: #e6e6e6;
     background-color: $gray-color;
     width: 100%;
 
-    .color {
+    &_color_blue {
       background-color: $blue-color;
       height: 1.75vw;
     }
