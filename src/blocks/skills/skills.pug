@@ -8,10 +8,10 @@ mixin skills (skills)
       .skills__block
         h3.skills__name= item.name
         ul.skills__line
-          - for(let i = 0; i < item.maxValue; i += 1) {
-            -if(i < item.value){
+          - for (let i = 0; i < item.maxValue; i += 1) {
+            -if (i < item.value){
               li.ring
-            -}else{
+            -} else {
               li.ring.ring-gray
             -};
           -};
