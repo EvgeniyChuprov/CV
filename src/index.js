@@ -1,2 +1,1 @@
-import './style.scss';
-import './favicons/favicons';
+require.context("./",true,/\.(scss|png|svg|eot|ttf|woff)$/);

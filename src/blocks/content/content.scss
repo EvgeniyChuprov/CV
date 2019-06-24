@@ -1,31 +1,3 @@
-@mixin ring($diameter, $border, $shadow, $mainColor, $minorColor) {
-  background: $mainColor;
-  border: $border solid $minorColor;
-  border-radius: 50%;
-  width: $diameter;
-  height: $diameter;
-  position: relative;
-  box-shadow: 0 0 0 $shadow $mainColor;
-}
-
-$blue-color: #385a94;
-$white-color: #ffffff;
-
-@import "fonts/fonts.scss";
-@import "blocks/logo/logo.scss";
-@import "blocks/profile/profile.scss";
-@import "blocks/contact/contact.scss";
-@import "blocks/skills/skills.scss";
-@import "blocks/education/education.scss";
-@import "blocks/experience/experience.scss";
-@import "blocks/practice/practice";
-@import "blocks/software/software";
-@import "blocks/header/header";
-
-html {
-  font-size: 16px;
-}
-
 .content {
   display: flex;
   justify-content: space-between;

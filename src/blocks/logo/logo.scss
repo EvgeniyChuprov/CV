@@ -4,7 +4,13 @@
   font-family: "myriadprobold", "Arial", Sans-Serif;
 
   &__ring {
-    @include ring(19.5rem, 1.4rem, 0.09rem, $blue-color, $white-color);
+    background: #385a94;
+    border: 1.4rem solid #ffffff;
+    border-radius: 50%;
+    width: 19.5rem;
+    height: 19.5rem;
+    position: relative;
+    box-shadow: 0 0 0 0.09rem #385a94;
     margin-left: 25.2%;
   }
 

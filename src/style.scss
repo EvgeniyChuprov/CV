@@ -1,6 +1,36 @@
-@import "blocks/content/content.scss";
-
 html{
   font-size: 16px;
   font-family: "myriadpro", "Arial", Sans-Serif;
+}
+
+@font-face {
+  font-family: "myriadprobold";
+  src: url("/fonts/myriadpro-bold.eot");
+  src: local("☺"), url("/fonts/myriadpro-bold.woff") format("woff"),
+    url("/fonts/myriadpro-bold.ttf") format("truetype"), url("/fonts/myriadpro-bold.svg") format("svg");
+  font-weight: 600;
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "myriadprolight";
+  src: url("/fonts/myriadpro-lightsemiext.eot");
+  src: local("☺"), url("/fonts/myriadpro-lightsemiext.woff") format("woff"),
+    url("/fonts/myriadpro-lightsemiext.ttf") format("truetype"),
+    url("/fonts/myriadpro-lightsemiext.svg") format("svg");
+  font-weight: 500;
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "myriadpro";
+  src: url("/fonts/myriadpro-regular.eot");
+  src: local("☺"), url("/fonts/myriadpro-regular.woff") format("woff"),
+    url("/fonts/myriadpro-regular.ttf") format("truetype"),
+    url("/fonts/myriadpro-regular.svg") format("svg");
+  font-weight: 400;
+  font-weight: normal;
+  font-style: normal;
 }
