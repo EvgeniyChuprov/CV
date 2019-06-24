@@ -1,1 +1,1 @@
-require.context("./",true,/\.(scss|png|svg|eot|ttf|woff)$/);
+require.context('./',true,/\.(scss|png|svg|eot|ttf|woff)$/);
