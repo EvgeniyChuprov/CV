@@ -14,29 +14,32 @@ mixin content ( )
     .content__column.content__column_position_left
       +logo({name:"name here", surname:"surname", job:"graphic designer"})
 
-      +profile({text:profileText, strongText:profileStrongText})
+      +profile({title: "profile", text:profileText, strongText:profileStrongText})
 
-      +contact({address:"Main Street, City", email:"contact@domain.com",
+      +contact({title: "contact", address:"Main Street, City", email:"contact@domain.com",
         phone:"555-555-555", website:"www.yourweb.com"})
 
-      +skills([{name:"creative", value:9, maxValue:12},
+      +skills({title: "skills", skills:[{name:"creative", value:9, maxValue:12},
         {name:"teamwork", value:11, maxValue:12},
         {name:"innovate", value:6, maxValue:12},
-        {name:"communication", value:11, maxValue:12}])
+        {name:"communication", value:11, maxValue:12}]})
 
     .content__column.content__column_position_right 
-      +education([{title:"master degree", data:"// Feb 2011 - Jun 2014", name:"university name", text: text},
+      +education({title: "education", education:
+        [{title:"master degree", data:"// Feb 2011 - Jun 2014", name:"university name", text: text},
         {title:"master degree", data:"// Feb 2011 - Jun 2014", name:"university name", text: text},
         {title:"master degree", data:"// Feb 2011 - Jun 2014", name:"university name", text: text},
-        {title:"master degree", data:"// Feb 2011 - Jun 2014", name:"university name", text: text}])
+        {title:"master degree", data:"// Feb 2011 - Jun 2014", name:"university name", text: text}]})
 
-      +experience([{title:"company name", data:"// Feb 2011 - Jun 2014", name:"your job here", text: text},
+      +experience({title: "experience", experience:
+        [{title:"company name", data:"// Feb 2011 - Jun 2014", name:"your job here", text: text},
         {title:"company name", data:"// Feb 2011 - Jun 2014", name:"your job here", text: text},
-        {title:"company name", data:"// Feb 2011 - Jun 2014", name:"your job here", text: text}])
+        {title:"company name", data:"// Feb 2011 - Jun 2014", name:"your job here", text: text}]})
 
-      +software([{name: "photoshop", percent:"91.11%"},
+      +software({title: "software", software:
+        [{name: "photoshop", percent:"91.11%"},
         {name: "dreamweaver", percent:"83%"},
         {name: "illustrator", percent:"71%"},
         {name: "after effects", percent:"61.7%"},
         {name: "indesign", percent:"56.2%"},
-        {name: "html5css3", percent:"91%"}])    
+        {name: "html5css3", percent:"91%"}]})    

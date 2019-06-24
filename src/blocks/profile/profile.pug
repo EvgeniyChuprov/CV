@@ -1,9 +1,9 @@
 include ../header/header
 
 mixin profile(options)
-  -let {text="text", strongText="strongText"} = options
+  -let {title="title", text="text", strongText="strongText"} = options
   .profile
-    +header("profile")
+    +header({title: title})
 
     p.profile__text= text
       span.profile__text-strong= strongText

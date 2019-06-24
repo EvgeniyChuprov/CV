@@ -1,12 +1,14 @@
 include ../header/header
 
-mixin software (software)
-  +header("software") 
+mixin software (options)
+  -let {title="title", software=[]} = options
+  +header({title: title}) 
 
   .software
     each item in software
+      -let {name="name", percent="percent"} = item;
       .software__block
-        h3.software__title= item.name
+        h3.software__title= name
         
         .software__points
-          .software__points.software__points_color_blue(style=`width:${item.percent};`)
+          .software__points.software__points_color_blue(style=`width:${percent};`)

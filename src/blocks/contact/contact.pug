@@ -1,7 +1,8 @@
 include ../header/header
 
-mixin contact ({address, email, phone, website})
-  +header("contact")
+mixin contact (options)
+  -let {title="title", address="address", email="email", phone="phone", website='website'} = options;
+  +header({title: title})
 
   .contact
     .contact__block

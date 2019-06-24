@@ -1,15 +1,17 @@
 include ../header/header
 
-mixin skills (skills)
-  +header("skills")  
+mixin skills (options)
+  -let {title="title", skills=[]} = options
+  +header({title: title})  
 
   .skills
     each item in skills
+      -let {name="name", value= 0, maxValue=12} = item;
       .skills__block
-        h3.skills__name= item.name
+        h3.skills__name= name
         ul.skills__line
-          - for (let i = 0; i < item.maxValue; i += 1) {
-            -if (i < item.value){
+          - for (let i = 0; i < maxValue; i += 1) {
+            -if (i < value){
               li.skills__level.skills__level_developed
             -} else {
               li.skills__level.skills__level_undeveloped

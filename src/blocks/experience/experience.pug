@@ -1,8 +1,9 @@
 include ../header/header
 include ../practice/practice
 
-mixin experience (experience)
-  +header("experience")
+mixin experience (options)
+  -let {title="title", experience=[]} = options
+  +header({title: title})
 
   .experience
     each item in experience

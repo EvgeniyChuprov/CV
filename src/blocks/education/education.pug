@@ -1,8 +1,9 @@
 include ../header/header
 include ../practice/practice
 
-mixin education (education)
-  +header("education")
+mixin education (options)
+  -let {title="title", education=[]} = options
+  +header({title: title})
 
   .education
     each item in education
