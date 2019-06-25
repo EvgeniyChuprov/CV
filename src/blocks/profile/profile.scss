@@ -1,6 +1,4 @@
 .profile {
-  margin-top: 4.5rem;
-  padding: 0.01rem 0 4.6rem 0;
 
   &__text {
     text-align: left;
@@ -12,7 +10,7 @@
   }
   
   &__text-strong {
-    font-family: "myriadprobold", "Arial", Sans-Serif;
+    font-weight: bolder;
     line-height: 1.56vw;
   }
 }

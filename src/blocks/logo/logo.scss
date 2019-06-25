@@ -1,7 +1,5 @@
 .logo {
-  padding: 1.35rem 0 3.1rem;
   text-transform: uppercase;
-  font-family: "myriadprobold", "Arial", Sans-Serif;
 
   &__ring {
     background: #385a94;
@@ -12,16 +10,20 @@
     position: relative;
     box-shadow: 0 0 0 0.09rem #385a94;
     margin-left: 25.2%;
+
+    @media only screen and (max-width: 1910px) {
+      margin: auto;
+    }
   }
 
   &__name {
-    font-family: "myriadprolight", "Arial", Sans-Serif;
-    font-size: 5.25rem;
+    font-size: 5rem;
     padding: 2.95rem 0 0 1.4rem;
     letter-spacing: -0.07rem;
   }
 
   &__surname {
+    font-weight: bolder;
     font-size: 6rem;
     line-height: 5.01rem;
     letter-spacing: -0.01rem;
@@ -29,17 +31,9 @@
   }
 
   &__job {
+    font-weight: bolder;
     font-size: 2.4rem;
     letter-spacing: -0.045rem;
     padding: 1.3rem 0 0 1.3rem;
-  }
-}
-
-@media only screen and (max-width: 1910px) {
-  .logo {
-    
-    &__ring {
-      margin: auto;
-    }
   }
 }

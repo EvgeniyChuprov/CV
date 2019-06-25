@@ -12,34 +12,41 @@ mixin content ( )
   - const profileStrongText = 'pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum.';
   .content
     .content__column.content__column_position_left
-      +logo({name:"name here", surname:"surname", job:"graphic designer"})
+      .content__logo
+        +logo({name:"name here", surname:"surname", job:"graphic designer"})
 
-      +profile({title: "profile", text:profileText, strongText:profileStrongText})
+      .content__profile
+        +profile({title: "profile", text:profileText, strongText:profileStrongText})
 
-      +contact({title: "contact", address:"Main Street, City", email:"contact@domain.com",
-        phone:"555-555-555", website:"www.yourweb.com"})
+      .content__contact
+        +contact({title: "contact", address:"Main Street, City", email:"contact@domain.com",
+                  phone:"555-555-555", website:"www.yourweb.com"})
 
-      +skills({title: "skills", skills:[{name:"creative", value:9, maxValue:12},
-        {name:"teamwork", value:11, maxValue:12},
-        {name:"innovate", value:6, maxValue:12},
-        {name:"communication", value:11, maxValue:12}]})
+      .content__skills
+        +skills({title: "skills", skills:[{name:"creative", value:9, maxValue:12},
+          {name:"teamwork", value:11, maxValue:12},
+          {name:"innovate", value:6, maxValue:12},
+          {name:"communication", value:11, maxValue:12}]})
 
     .content__column.content__column_position_right 
-      +education({title: "education", education:
-        [{title:"master degree", data:"// Feb 2011 - Jun 2014", name:"university name", text: text},
-        {title:"master degree", data:"// Feb 2011 - Jun 2014", name:"university name", text: text},
-        {title:"master degree", data:"// Feb 2011 - Jun 2014", name:"university name", text: text},
-        {title:"master degree", data:"// Feb 2011 - Jun 2014", name:"university name", text: text}]})
+      .content__education
+        +education({title: "education", education:
+          [{title:"master degree", data:"// Feb 2011 - Jun 2014", name:"university name", text: text},
+          {title:"master degree", data:"// Feb 2011 - Jun 2014", name:"university name", text: text},
+          {title:"master degree", data:"// Feb 2011 - Jun 2014", name:"university name", text: text},
+          {title:"master degree", data:"// Feb 2011 - Jun 2014", name:"university name", text: text}]})
 
-      +experience({title: "experience", experience:
-        [{title:"company name", data:"// Feb 2011 - Jun 2014", name:"your job here", text: text},
-        {title:"company name", data:"// Feb 2011 - Jun 2014", name:"your job here", text: text},
-        {title:"company name", data:"// Feb 2011 - Jun 2014", name:"your job here", text: text}]})
-
-      +software({title: "software", software:
-        [{name: "photoshop", percent:"91.11%"},
-        {name: "dreamweaver", percent:"83%"},
-        {name: "illustrator", percent:"71%"},
-        {name: "after effects", percent:"61.7%"},
-        {name: "indesign", percent:"56.2%"},
-        {name: "html5css3", percent:"91%"}]})    
+      .content__experience
+        +experience({title: "experience", experience:
+          [{title:"company name", data:"// Feb 2011 - Jun 2014", name:"your job here", text: text},
+          {title:"company name", data:"// Feb 2011 - Jun 2014", name:"your job here", text: text},
+          {title:"company name", data:"// Feb 2011 - Jun 2014", name:"your job here", text: text}]})
+          
+      .content__software
+        +software({title: "software", software:
+          [{name: "photoshop", percent:"91.11%"},
+          {name: "dreamweaver", percent:"83%"},
+          {name: "illustrator", percent:"71%"},
+          {name: "after effects", percent:"61.7%"},
+          {name: "indesign", percent:"56.2%"},
+          {name: "html5css3", percent:"91%"}]})    

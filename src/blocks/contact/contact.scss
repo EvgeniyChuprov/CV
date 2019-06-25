@@ -1,6 +1,5 @@
 .contact {
-  padding: 3.5% 1%;
-
+  padding-top: 3%;
   &__block {
     padding: 3.55% 0;
     text-align: left;
@@ -8,7 +7,7 @@
 
   &__title {
     color: #385a94;
-    font-family: "myriadprobold", "Arial", Sans-Serif;
+    font-weight: bolder;
     font-size: 2rem;
     text-transform: uppercase;
     float: left;
