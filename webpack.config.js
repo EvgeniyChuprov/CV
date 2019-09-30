@@ -1,8 +1,8 @@
-const path = require("path");
+const path = require('path');
 const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-const MiniCssExtractPlugin = require("mini-css-extract-plugin");
-const CleanWebpackPlugin = require("clean-webpack-plugin");
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const CleanWebpackPlugin = require('clean-webpack-plugin');
 const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 
 module.exports = {
@@ -16,15 +16,11 @@ module.exports = {
     rules: [
       {
         test: /\.css$/,
-        loaders: ["style-loader", "css-loader"]
+        loaders: ['style-loader', 'css-loader'],
       },
       {
         test: /\.scss$/,
-        use: [
-          MiniCssExtractPlugin.loader,
-          'css-loader',
-          'sass-loader'
-        ]
+        use: [MiniCssExtractPlugin.loader, 'css-loader', 'sass-loader'],
       },
       {
         test: /\.(jpg|png|svg|gif)$/,
@@ -34,26 +30,26 @@ module.exports = {
             options: {
               name: '/img/[name].[ext]',
               outputPath: './',
-              useRelativePath: true
-            }
+              useRelativePath: true,
+            },
           },
           {
             loader: 'image-webpack-loader',
             options: {
               mozjpeg: {
                 progressive: true,
-                quality: 75
-              }
-            }
-          }
-        ]
+                quality: 75,
+              },
+            },
+          },
+        ],
       },
       {
         test: /\.pug$/,
         loader: 'pug-loader',
         options: {
-          pretty: true
-        }
+          pretty: true,
+        },
       },
       {
         test: /\.(ico)$/,
@@ -62,11 +58,10 @@ module.exports = {
             loader: 'file-loader',
             options: {
               name: '/favicons/[name].[ext]',
-              useRelativePath: true
-            }
-          }
-        ]
-
+              useRelativePath: true,
+            },
+          },
+        ],
       },
       {
         test: /\.(woff|woff2|eot|ttf|otf)$/,
@@ -76,40 +71,41 @@ module.exports = {
             options: {
               name: 'fonts/[name].[ext]',
               outputPath: './',
-              useRelativePath: true
-            }
-          }
-        ]
-      }
-    ]
+              useRelativePath: true,
+            },
+          },
+        ],
+      },
+    ],
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: './src/index.pug'
+      template: './src/index.pug',
     }),
     new MiniCssExtractPlugin({
-      filename: "[name].css",
+      filename: '[name].css',
     }),
-    new CleanWebpackPlugin([
-      './dist/*.*'
-    ]),
+    new CleanWebpackPlugin(['./dist/*.*']),
     new webpack.ProvidePlugin({
-      $: "jquery",
-      jQuery: "jquery",
-      "window.jQuery": "jquery'",
-      "window.$": "jquery"
+      $: 'jquery',
+      jQuery: 'jquery',
+      'window.jQuery': "jquery'",
+      'window.$': 'jquery',
     }),
     new OptimizeCssAssetsPlugin({
       assetNameRegExp: /\.css/g,
       cssProcessor: require('cssnano'),
       cssProcessorPluginOptions: {
-        preset: ['default', {
-          discatdComments: {
-            removeAll: true
-          }
-        }]
+        preset: [
+          'default',
+          {
+            discardComments: {
+              removeAll: true,
+            },
+          },
+        ],
       },
-      canPrint: true
-    })
-  ]
-}
+      canPrint: true,
+    }),
+  ],
+};

@@ -9,6 +9,6 @@ mixin software (options)
       -let {name="name", percent="percent"} = item;
       .software__block
         h3.software__title= name
-        
+
         .software__points
-          .software__points.software__points_color_blue(style=`width:${percent};`)
+          .software__points-mastered(style=`width:${percent};`)
